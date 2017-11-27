@@ -1,0 +1,178 @@
+/* Site Colors:
+  #1A446C - blue grey
+  #689DC1
+  #D4E6F4
+  #EEE4B9
+  #8D0D19
+
+*/
+
+html {
+  height: 100%; width: 100%;
+  font-family: Arial;
+}
+body {
+  height: 100%; width: 100%;
+  margin: 0; padding: 0; border: 0;
+  background: #EEE4B9;
+}
+img { border: none; }
+a { color: #8D0D19 }
+a:hover { color: #1A446C}
+p,h1,h2,h3 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+}
+#headermainfooter {
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+    /* Direction of the items, can be row or column */
+    flex-direction: column;
+}
+
+#header {
+  height: 70px;
+  /*  width: 100%;  */
+  margin: 0; padding: 1em; text-align: left;
+  background: #1A446C; color: #D4E6F4;
+}
+#header h1 { padding: 0.5em; margin: 0; }
+#main {
+  flex: 1;
+
+  width: 100%;
+  margin: 0; padding: 0;
+  background: #EEE4B9;
+}
+#footer {
+/*  width: 100%;  */
+  margin: 0; padding: 1em;
+  text-align: left;
+  background: #1A446C; color: #D4E6F4;
+}
+/* sidebar_left */
+#sidebar_left {
+  float: left;
+  height: 100%; width: 150px;
+  margin: 0; padding: 0 2em;
+  color: #D4E6F4; background: #8D0D19;
+}
+#sidebar_left a {
+  color: #D4E6F4;
+  background-color: #8D0D19;
+  text-decoration: none;
+}
+#sidebar_left a:hover { color: #FFFFFF; }
+ul.subjects {
+  margin: 1em 0; padding-left: 0; list-style: none;
+}
+ul.pages {
+  padding-left: 2em; list-style: square; font-weight: normal;
+}
+.selected { font-weight: bold; }
+
+#pagesidebar_right {
+  height: 90%;
+  width: 88%;
+  margin: 0;
+  display: flex;
+
+  /* Direction of the items, can be row or column */
+  flex-direction: row;
+}
+
+/* page content */
+#page {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  padding: 1em;
+  overflow: hidden;
+  background: #EEE4B9;
+}
+#page h1,h2,h3 {
+  color: #8D0D19;
+  padding: 0;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  border: 0;
+  margin: 0;
+}
+#page h4,h5,h6 {
+  color: #000000;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  border: 0;
+  margin: 0;
+}
+/* info content */
+#info {
+  height: 100%;
+  width: 15%;
+  padding: 1em;
+  overflow: hidden;
+  background: #EEE4B9;
+}
+#info a {
+  color: #8D0D19;
+  background: #EEE4B9;
+  text-decoration: none;
+}
+ul.users {
+  padding: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin: 0;
+}
+li.users {
+  display: table-row;
+}
+.users div {
+  padding-bottom: .2em;
+  padding-right: 5em;
+  display: table-cell;
+}
+
+.users .admins {
+  font-style: italic;
+}
+
+#page .users h3 {
+  color: #000000;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+ul.form {
+  padding: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin: 0;
+}
+
+li.form {
+    display: table-row;
+}
+
+.form div {
+  padding-bottom: .2em;
+  padding-right: .5em;
+  display: table-cell;
+}
+
+div.message {
+  border: 2px solid #1A446C;
+  color: #1A446C; font-weight: bold;
+  margin: 1em 0; padding: 1em;
+}
+div.error {
+  border: 2px solid #8D0D19;
+  color: #8D0D19; font-weight: bold;
+  margin: 1em 0; padding: 1em;
+}

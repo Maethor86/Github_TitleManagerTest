@@ -1,0 +1,1017 @@
+[12-Nov-2017 13:14:24 UTC] PHP Warning:  require_once(functions.php): failed to open stream: No such file or directory in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\TitleManagerTest01.php on line 2
+[12-Nov-2017 13:14:24 UTC] PHP Fatal error:  require_once(): Failed opening required 'functions.php' (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\TitleManagerTest01.php on line 2
+[12-Nov-2017 13:17:09 UTC] PHP Notice:  Use of undefined constant value - assumed 'value' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\validation_functions.php on line 6
+[12-Nov-2017 13:18:01 UTC] PHP Notice:  Use of undefined constant value - assumed 'value' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\validation_functions.php on line 6
+[12-Nov-2017 13:19:08 UTC] PHP Notice:  Use of undefined constant value - assumed 'value' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\validation_functions.php on line 6
+[12-Nov-2017 13:23:55 UTC] PHP Notice:  Use of undefined constant value - assumed 'value' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\validation_functions.php on line 6
+[12-Nov-2017 13:24:19 UTC] PHP Notice:  Use of undefined constant value - assumed 'value' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\validation_functions.php on line 6
+[12-Nov-2017 15:33:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect_to() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\index.php:4
+Stack trace:
+#0 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\index.php on line 4
+[12-Nov-2017 15:39:21 UTC] PHP Notice:  Undefined variable: default_username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 57
+[12-Nov-2017 15:39:21 UTC] PHP Notice:  Undefined variable: default_password in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 58
+[12-Nov-2017 15:41:05 UTC] PHP Notice:  Undefined variable: default_username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 57
+[12-Nov-2017 15:41:05 UTC] PHP Notice:  Undefined variable: default_password in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 58
+[12-Nov-2017 15:42:21 UTC] PHP Notice:  Undefined variable: default_username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 57
+[12-Nov-2017 15:42:21 UTC] PHP Notice:  Undefined variable: default_password in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 58
+[12-Nov-2017 15:43:29 UTC] PHP Notice:  Undefined index: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 53
+[12-Nov-2017 15:44:23 UTC] PHP Notice:  Undefined index: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 53
+[12-Nov-2017 15:44:26 UTC] PHP Notice:  Undefined index: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 53
+[12-Nov-2017 15:46:16 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 39
+[12-Nov-2017 15:46:28 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 39
+[12-Nov-2017 16:37:31 UTC] PHP Parse error:  syntax error, unexpected 'sqlsrv_connect' (T_STRING) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 36
+[13-Nov-2017 13:34:58 UTC] PHP Parse error:  syntax error, unexpected 'sqlsrv_connect' (T_STRING) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 36
+[13-Nov-2017 13:35:02 UTC] PHP Parse error:  syntax error, unexpected 'sqlsrv_connect' (T_STRING) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 36
+[13-Nov-2017 17:47:53 UTC] PHP Fatal error:  Cannot redeclare sqlsrv_formatted_errors() (previously declared in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php:11) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php on line 14
+[13-Nov-2017 17:48:26 UTC] PHP Notice:  Undefined variable: conn in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php on line 19
+[13-Nov-2017 17:48:26 UTC] PHP Notice:  Undefined variable: tsql in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php on line 19
+[13-Nov-2017 17:48:26 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, null given in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php on line 19
+[13-Nov-2017 18:43:23 UTC] PHP Notice:  Undefined variable: getResults in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\mainPage.php on line 77
+[13-Nov-2017 18:43:23 UTC] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, null given in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php on line 46
+[13-Nov-2017 18:46:57 UTC] PHP Notice:  Undefined variable: title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\mainPage.php on line 59
+[13-Nov-2017 18:48:38 UTC] PHP Parse error:  syntax error, unexpected '$fields_required' (T_VARIABLE) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\mainPage.php on line 18
+[13-Nov-2017 18:49:31 UTC] PHP Parse error:  syntax error, unexpected 'sqlsrv_connect' (T_STRING) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 36
+[13-Nov-2017 20:07:20 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 112
+[13-Nov-2017 21:00:14 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 60
+[13-Nov-2017 22:33:51 UTC] PHP Parse error:  syntax error, unexpected '>' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 55
+[13-Nov-2017 22:34:02 UTC] PHP Parse error:  syntax error, unexpected '>' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 55
+[13-Nov-2017 22:43:47 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 63
+[13-Nov-2017 22:47:43 UTC] PHP Notice:  Undefined index: hashed_password in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 63
+[13-Nov-2017 22:48:35 UTC] PHP Notice:  Undefined index: Hashed_password in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 63
+[13-Nov-2017 22:53:28 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 66
+[13-Nov-2017 22:53:50 UTC] PHP Notice:  Undefined index: Username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 70
+[13-Nov-2017 22:54:58 UTC] PHP Notice:  Undefined index: Username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 70
+[13-Nov-2017 22:56:02 UTC] PHP Notice:  Undefined index: Username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 70
+[13-Nov-2017 23:00:41 UTC] PHP Notice:  Undefined index: Username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 71
+[13-Nov-2017 23:00:41 UTC] PHP Notice:  Undefined index: Username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 72
+[13-Nov-2017 23:01:08 UTC] PHP Notice:  Undefined index: Username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 71
+[13-Nov-2017 23:01:08 UTC] PHP Notice:  Undefined index: Username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 72
+[13-Nov-2017 23:08:30 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 74
+[13-Nov-2017 23:16:44 UTC] PHP Parse error:  syntax error, unexpected ',' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 72
+[14-Nov-2017 19:13:39 UTC] PHP Warning:  session_start(): open_basedir restriction in effect. File(C:\WINDOWS\TEMP) is not within the allowed path(s): (C:\Maethor\Program Filez\Web Development) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\sessions.php on line 2
+[14-Nov-2017 19:13:39 UTC] PHP Fatal error:  session_start(): Failed to initialize storage module: files (path: ) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\sessions.php on line 2
+[14-Nov-2017 19:17:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpini() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\temp.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\temp.php on line 17
+[14-Nov-2017 19:20:43 UTC] PHP Warning:  session_start(): open_basedir restriction in effect. File(C:\WINDOWS\TEMP) is not within the allowed path(s): (C:\Maethor\Program Filez\Web Development) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\sessions.php on line 2
+[14-Nov-2017 19:20:43 UTC] PHP Fatal error:  session_start(): Failed to initialize storage module: files (path: ) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\sessions.php on line 2
+[14-Nov-2017 19:24:28 UTC] PHP Warning:  session_start(): open_basedir restriction in effect. File(C:\WINDOWS\TEMP) is not within the allowed path(s): (C:\Maethor\Program Filez\Web Development) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\sessions.php on line 2
+[14-Nov-2017 19:24:28 UTC] PHP Fatal error:  session_start(): Failed to initialize storage module: files (path: ) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\sessions.php on line 2
+[14-Nov-2017 19:24:46 UTC] PHP Warning:  session_start(): open_basedir restriction in effect. File(C:\WINDOWS\TEMP) is not within the allowed path(s): (C:\Maethor\Program Filez\Web Development) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\sessions.php on line 2
+[14-Nov-2017 19:24:46 UTC] PHP Fatal error:  session_start(): Failed to initialize storage module: files (path: ) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\sessions.php on line 2
+[14-Nov-2017 19:27:55 UTC] PHP Warning:  session_start(): open_basedir restriction in effect. File(C:\WINDOWS\TEMP) is not within the allowed path(s): (C:\Maethor\Program Filez\Web Development) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\sessions.php on line 2
+[14-Nov-2017 19:27:55 UTC] PHP Fatal error:  session_start(): Failed to initialize storage module: files (path: ) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\sessions.php on line 2
+[14-Nov-2017 19:46:12 UTC] PHP Warning:  session_start(): open_basedir restriction in effect. File(C:\WINDOWS\TEMP) is not within the allowed path(s): (C:\Maethor\Program Filez\Web Development) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\sessions.php on line 5
+[14-Nov-2017 19:46:12 UTC] PHP Fatal error:  session_start(): Failed to initialize storage module: files (path: ) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\sessions.php on line 5
+[14-Nov-2017 22:40:19 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 29
+[14-Nov-2017 22:41:30 UTC] PHP Notice:  Undefined variable: value in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 39
+[14-Nov-2017 22:41:30 UTC] PHP Notice:  Undefined variable: value in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 39
+[14-Nov-2017 22:41:30 UTC] PHP Notice:  Undefined variable: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 46
+[14-Nov-2017 22:41:59 UTC] PHP Notice:  Undefined variable: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 46
+[14-Nov-2017 22:44:16 UTC] PHP Notice:  Undefined variable: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 48
+[14-Nov-2017 22:44:47 UTC] PHP Notice:  Array to string conversion in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 49
+[15-Nov-2017 15:05:54 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ';' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 50
+[15-Nov-2017 23:06:22 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 27
+[15-Nov-2017 23:08:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\validation_functions.php on line 42
+[15-Nov-2017 23:13:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\validation_functions.php on line 43
+[15-Nov-2017 23:14:15 UTC] PHP Warning:  sqlsrv_fetch_array(): supplied resource is not a valid ss_sqlsrv_stmt resource in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 50
+[15-Nov-2017 23:17:28 UTC] PHP Warning:  sqlsrv_fetch_array(): supplied resource is not a valid ss_sqlsrv_stmt resource in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 50
+[15-Nov-2017 23:51:56 UTC] PHP Notice:  Undefined variable: connection in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 42
+[15-Nov-2017 23:51:56 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, null given in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 42
+[15-Nov-2017 23:52:29 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, null given in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 42
+[15-Nov-2017 23:53:22 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, null given in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 42
+[15-Nov-2017 23:54:51 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\db_connection.php on line 3
+[15-Nov-2017 23:58:03 UTC] PHP Notice:  Undefined variable: results in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 78
+[16-Nov-2017 00:03:07 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 27
+[16-Nov-2017 00:03:07 UTC] PHP Notice:  Undefined index: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 28
+[16-Nov-2017 00:06:27 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 27
+[16-Nov-2017 00:06:27 UTC] PHP Notice:  Undefined index: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 28
+[16-Nov-2017 00:06:27 UTC] PHP Notice:  Undefined variable: _SESSION in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\mainPage.php on line 11
+[16-Nov-2017 00:06:27 UTC] PHP Notice:  Undefined variable: _SESSION in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\mainPage.php on line 42
+[16-Nov-2017 00:06:27 UTC] PHP Notice:  Undefined variable: conn in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\mainPage.php on line 70
+[16-Nov-2017 00:06:27 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, null given in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php on line 82
+[16-Nov-2017 00:10:10 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 27
+[16-Nov-2017 00:10:10 UTC] PHP Notice:  Undefined index: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 28
+[16-Nov-2017 00:10:10 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, null given in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php on line 82
+[16-Nov-2017 00:11:20 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 27
+[16-Nov-2017 00:11:20 UTC] PHP Notice:  Undefined index: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 28
+[16-Nov-2017 00:11:20 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, null given in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php on line 82
+[16-Nov-2017 00:14:57 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 27
+[16-Nov-2017 00:14:57 UTC] PHP Notice:  Undefined index: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 28
+[16-Nov-2017 00:14:57 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, null given in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php on line 89
+[16-Nov-2017 00:15:43 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 27
+[16-Nov-2017 00:15:43 UTC] PHP Notice:  Undefined index: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 28
+[16-Nov-2017 00:15:43 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, null given in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php on line 89
+[16-Nov-2017 00:19:05 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 27
+[16-Nov-2017 00:19:05 UTC] PHP Notice:  Undefined index: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 28
+[16-Nov-2017 00:19:05 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, null given in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php on line 90
+[16-Nov-2017 00:20:33 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 27
+[16-Nov-2017 00:20:33 UTC] PHP Notice:  Undefined index: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 28
+[16-Nov-2017 00:20:33 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, null given in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php on line 90
+[16-Nov-2017 00:21:10 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 27
+[16-Nov-2017 00:21:10 UTC] PHP Notice:  Undefined index: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 28
+[16-Nov-2017 00:25:24 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 27
+[16-Nov-2017 00:25:24 UTC] PHP Notice:  Undefined index: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 28
+[16-Nov-2017 00:28:32 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 27
+[16-Nov-2017 00:28:32 UTC] PHP Notice:  Undefined index: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 28
+[16-Nov-2017 00:29:40 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 27
+[16-Nov-2017 00:29:40 UTC] PHP Notice:  Undefined index: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 28
+[16-Nov-2017 00:30:31 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 27
+[16-Nov-2017 00:30:31 UTC] PHP Notice:  Undefined index: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 28
+[16-Nov-2017 00:31:06 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 27
+[16-Nov-2017 00:31:06 UTC] PHP Notice:  Undefined index: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 28
+[16-Nov-2017 00:32:28 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 29
+[16-Nov-2017 00:32:28 UTC] PHP Notice:  Undefined index: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 30
+[16-Nov-2017 00:41:16 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 34
+[16-Nov-2017 00:41:16 UTC] PHP Notice:  Undefined index: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 35
+[16-Nov-2017 00:43:45 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 36
+[16-Nov-2017 00:43:45 UTC] PHP Notice:  Undefined index: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 37
+[16-Nov-2017 00:43:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php:21) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 5
+[16-Nov-2017 00:45:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php:21) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 5
+[16-Nov-2017 00:54:26 UTC] PHP Notice:  Use of undefined constant logged_in - assumed 'logged_in' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 94
+[16-Nov-2017 01:23:54 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\mainPage.php on line 42
+[16-Nov-2017 01:27:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sql_show_sqlversion() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\footer.php:5
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\temp.php(11): include()
+#1 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\footer.php on line 5
+[16-Nov-2017 10:26:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sql_show_current_user() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\footer.php:7
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\template.php(15): include()
+#1 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\footer.php on line 7
+[17-Nov-2017 13:13:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sql_show_current_user() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\footer.php:7
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\TitleManagerTest01.php(61): include()
+#1 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\footer.php on line 7
+[17-Nov-2017 14:38:17 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 21
+[18-Nov-2017 11:14:42 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 14
+[18-Nov-2017 11:14:59 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 23
+[18-Nov-2017 11:15:26 UTC] PHP Notice:  Undefined variable: selecte_subject_id in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 16
+[18-Nov-2017 11:15:26 UTC] PHP Notice:  Undefined offset: 0 in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 16
+[18-Nov-2017 11:15:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ulrencode() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php:21
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\temp.php(12): navigation()
+#1 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 21
+[18-Nov-2017 11:17:45 UTC] PHP Notice:  Undefined variable: select_subject_id in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 16
+[18-Nov-2017 11:17:45 UTC] PHP Notice:  Undefined offset: 0 in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 16
+[18-Nov-2017 11:17:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ulrencode() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php:21
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\temp.php(12): navigation(1)
+#1 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 21
+[18-Nov-2017 11:18:35 UTC] PHP Notice:  Undefined offset: 0 in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 16
+[18-Nov-2017 11:18:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ulrencode() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php:21
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\temp.php(12): navigation(1)
+#1 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 21
+[18-Nov-2017 11:43:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ulrencode() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php:21
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\temp.php(12): navigation(1)
+#1 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 21
+[18-Nov-2017 11:44:01 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php:23
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\temp.php(12): navigation(1)
+#1 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 23
+[18-Nov-2017 11:44:21 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php:23
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\temp.php(12): navigation(1)
+#1 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 23
+[18-Nov-2017 11:57:32 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function navigation(), 1 passed in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\temp.php on line 12 and exactly 2 expected in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php:10
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\temp.php(12): navigation(1)
+#1 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 10
+[18-Nov-2017 12:20:08 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\temp.php on line 46
+[18-Nov-2017 12:36:07 UTC] PHP Notice:  Undefined variable: subject in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 69
+[18-Nov-2017 12:36:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php on line 7
+[18-Nov-2017 12:41:35 UTC] PHP Notice:  Undefined index: Content in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\temp.php on line 44
+[18-Nov-2017 14:28:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function confirm_query() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php:71
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php(122): find_subject_by_id('1')
+#1 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\temp.php(8): find_current_page()
+#2 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 71
+[18-Nov-2017 14:28:52 UTC] PHP Warning:  sqlsrv_query() expects parameter 2 to be string, resource given in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php on line 25
+[18-Nov-2017 14:28:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_formatted_errors() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php:32
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php(26): sql_confirm_query(false)
+#1 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php(70): sql_request_query(Resource id #7, 'SELECT TOP 1 * ...')
+#2 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php(121): find_subject_by_id('1')
+#3 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\temp.php(8): find_current_page()
+#4 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php on line 32
+[18-Nov-2017 14:30:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function confirm_query() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php:56
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php(12): find_all_subjects()
+#1 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\temp.php(13): navigation(Array, NULL)
+#2 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 56
+[18-Nov-2017 14:31:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function confirm_query() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php:109
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php(26): find_pages_for_subject(1)
+#1 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\temp.php(13): navigation(Array, NULL)
+#2 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 109
+[18-Nov-2017 14:47:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sql_show_current_user() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\footer.php:7
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\template.php(14): include()
+#1 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\footer.php on line 7
+[18-Nov-2017 15:16:32 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\temp.php on line 21
+[18-Nov-2017 15:28:07 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\temp.php on line 21
+[18-Nov-2017 15:28:24 UTC] PHP Parse error:  syntax error, unexpected '"MenuName\"];' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\temp.php on line 22
+[18-Nov-2017 15:28:25 UTC] PHP Parse error:  syntax error, unexpected '"MenuName\"];' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\temp.php on line 22
+[18-Nov-2017 15:31:52 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\temp.php on line 29
+[19-Nov-2017 03:03:59 UTC] PHP Notice:  Undefined index: message in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\manage_users.php on line 20
+[19-Nov-2017 03:07:40 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\delete_user.php on line 13
+[19-Nov-2017 03:13:35 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\delete_user.php on line 13
+[19-Nov-2017 03:13:58 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\delete_user.php on line 13
+[19-Nov-2017 03:17:41 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 187
+[19-Nov-2017 03:20:32 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 187
+[19-Nov-2017 03:20:36 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 187
+[19-Nov-2017 03:21:17 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 187
+[19-Nov-2017 03:21:41 UTC] PHP Notice:  Undefined index: useID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 187
+[19-Nov-2017 03:21:41 UTC] PHP Notice:  Undefined variable: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 188
+[19-Nov-2017 03:23:51 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\delete_user.php on line 13
+[19-Nov-2017 03:23:51 UTC] PHP Notice:  Undefined variable: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 188
+[19-Nov-2017 03:26:21 UTC] PHP Notice:  Undefined variable: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 188
+[19-Nov-2017 03:35:34 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\new_user.php on line 17
+[19-Nov-2017 03:46:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function session_message() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\manage_users.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\manage_users.php on line 20
+[19-Nov-2017 04:01:29 UTC] PHP Notice:  Undefined variable: errors in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\new_user.php on line 31
+[19-Nov-2017 04:03:51 UTC] PHP Notice:  Undefined index: Confirm password in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\validation_functions.php on line 18
+[19-Nov-2017 04:30:17 UTC] PHP Warning:  sqlsrv_query(): supplied resource is not a valid ss_sqlsrv_conn resource in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php on line 71
+[19-Nov-2017 05:38:56 UTC] PHP Fatal error:  Cannot redeclare get_browser() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 302
+[19-Nov-2017 05:41:14 UTC] PHP Notice:  Undefined variable: userAgent in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\about_OS_browser.php on line 20
+[19-Nov-2017 05:59:20 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 190
+[19-Nov-2017 05:59:58 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 202
+[19-Nov-2017 06:00:30 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 202
+[19-Nov-2017 06:12:36 UTC] PHP Parse error:  syntax error, unexpected '>' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 149
+[19-Nov-2017 14:51:43 UTC] PHP Notice:  Undefined index: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\about_sql.php on line 32
+[19-Nov-2017 15:07:33 UTC] PHP Notice:  Undefined variable: current_subject in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\standard_navigation_header.php on line 3
+[19-Nov-2017 15:07:33 UTC] PHP Notice:  Undefined variable: current_page in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\standard_navigation_header.php on line 3
+[19-Nov-2017 15:08:04 UTC] PHP Notice:  Undefined variable: current_subject in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\standard_navigation_header.php on line 3
+[19-Nov-2017 15:08:04 UTC] PHP Notice:  Undefined variable: current_page in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\standard_navigation_header.php on line 3
+[19-Nov-2017 15:08:28 UTC] PHP Notice:  Undefined variable: current_subject in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\standard_navigation_header.php on line 3
+[19-Nov-2017 15:08:28 UTC] PHP Notice:  Undefined variable: current_page in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\standard_navigation_header.php on line 3
+[19-Nov-2017 15:08:29 UTC] PHP Notice:  Undefined variable: current_subject in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\standard_navigation_header.php on line 3
+[19-Nov-2017 15:08:29 UTC] PHP Notice:  Undefined variable: current_page in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\standard_navigation_header.php on line 3
+[19-Nov-2017 15:08:29 UTC] PHP Notice:  Undefined variable: current_subject in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\standard_navigation_header.php on line 3
+[19-Nov-2017 15:08:29 UTC] PHP Notice:  Undefined variable: current_page in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\standard_navigation_header.php on line 3
+[19-Nov-2017 15:08:31 UTC] PHP Notice:  Undefined variable: current_subject in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\standard_navigation_header.php on line 3
+[19-Nov-2017 15:08:31 UTC] PHP Notice:  Undefined variable: current_page in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\standard_navigation_header.php on line 3
+[19-Nov-2017 15:08:31 UTC] PHP Notice:  Undefined variable: current_subject in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\standard_navigation_header.php on line 3
+[19-Nov-2017 15:08:31 UTC] PHP Notice:  Undefined variable: current_page in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\standard_navigation_header.php on line 3
+[19-Nov-2017 15:09:52 UTC] PHP Notice:  Undefined variable: current_subject in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\standard_navigation_header.php on line 5
+[19-Nov-2017 15:09:52 UTC] PHP Notice:  Undefined variable: current_page in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\standard_navigation_header.php on line 5
+[19-Nov-2017 15:09:56 UTC] PHP Notice:  Undefined variable: current_subject in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\standard_navigation_header.php on line 5
+[19-Nov-2017 15:09:56 UTC] PHP Notice:  Undefined variable: current_page in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\standard_navigation_header.php on line 5
+[19-Nov-2017 15:20:21 UTC] PHP Notice:  Undefined variable: form_name in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts\standard_navigation_footer.php on line 17
+[20-Nov-2017 00:07:29 UTC] PHP Warning:  include(../includes/layouts/login_footer.php): failed to open stream: No such file or directory in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 77
+[20-Nov-2017 00:07:29 UTC] PHP Warning:  include(): Failed opening '../includes/layouts/login_footer.php' for inclusion (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 77
+[20-Nov-2017 21:55:10 UTC] PHP Notice:  Undefined variable: login_page in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 63
+[20-Nov-2017 21:57:12 UTC] PHP Notice:  Undefined index: login in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 23
+[20-Nov-2017 22:09:37 UTC] PHP Notice:  Undefined index: login in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 23
+[20-Nov-2017 22:18:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sql_request_query() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php:246
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php(290): find_user_by_username('Maethor')
+#1 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php(32): attempt_login('Maethor', 'titleManager')
+#2 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 246
+[20-Nov-2017 22:18:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sql_connect_to_database() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\db_connection.php:3
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php(7): require_once()
+#1 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\db_connection.php on line 3
+[20-Nov-2017 22:18:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sql_connect_to_database() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\db_connection.php:3
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php(7): require_once()
+#1 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\db_connection.php on line 3
+[20-Nov-2017 22:19:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sql_connect_to_database() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\db_connection.php:3
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php(7): require_once()
+#1 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\db_connection.php on line 3
+[20-Nov-2017 22:19:24 UTC] PHP Warning:  sqlsrv_query() expects parameter 1 to be resource, null given in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php on line 25
+[20-Nov-2017 22:19:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_formatted_errors() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php:32
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php(26): sql_confirm_query(false)
+#1 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php(246): sql_request_query('SELECT TOP 1 * ...')
+#2 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php(290): find_user_by_username('Maethor')
+#3 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php(32): attempt_login('Maethor', 'titleManager')
+#4 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php on line 32
+[20-Nov-2017 23:10:47 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 268
+[20-Nov-2017 23:11:17 UTC] PHP Notice:  Undefined variable: errors in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 56
+[20-Nov-2017 23:51:44 UTC] PHP Parse error:  syntax error, unexpected '$searchtitle_page' (T_VARIABLE), expecting ',' or ';' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\searchTitle.php on line 49
+[21-Nov-2017 00:27:15 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 370
+[21-Nov-2017 01:01:43 UTC] PHP Warning:  include(../includes/layouts/standard_navigation_header.php): failed to open stream: No such file or directory in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 8
+[21-Nov-2017 01:01:43 UTC] PHP Warning:  include(): Failed opening '../includes/layouts/standard_navigation_header.php' for inclusion (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 8
+[21-Nov-2017 01:01:43 UTC] PHP Notice:  Undefined variable: current_subject in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 14
+[21-Nov-2017 01:01:43 UTC] PHP Notice:  Undefined variable: current_page in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 22
+[21-Nov-2017 01:01:43 UTC] PHP Warning:  include(../includes/layouts/standard_navigation_footer.php): failed to open stream: No such file or directory in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 46
+[21-Nov-2017 01:01:43 UTC] PHP Warning:  include(): Failed opening '../includes/layouts/standard_navigation_footer.php' for inclusion (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 46
+[21-Nov-2017 01:31:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function show_page_title() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\manage_users.php:18
+Stack trace:
+#0 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\manage_users.php on line 18
+[21-Nov-2017 01:32:23 UTC] PHP Notice:  Undefined variable: functions in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 2
+[21-Nov-2017 01:32:23 UTC] PHP Warning:  require_once(../includes/.php): failed to open stream: No such file or directory in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 2
+[21-Nov-2017 01:32:23 UTC] PHP Fatal error:  require_once(): Failed opening required '../includes/.php' (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 2
+[21-Nov-2017 01:33:52 UTC] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 3
+[21-Nov-2017 01:33:59 UTC] PHP Notice:  Undefined variable: functions in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 3
+[21-Nov-2017 01:33:59 UTC] PHP Warning:  require_once(../includes/.php): failed to open stream: No such file or directory in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 3
+[21-Nov-2017 01:33:59 UTC] PHP Fatal error:  require_once(): Failed opening required '../includes/.php' (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 3
+[21-Nov-2017 01:34:22 UTC] PHP Warning:  require_once(../includes/functions.php.php): failed to open stream: No such file or directory in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 3
+[21-Nov-2017 01:34:22 UTC] PHP Fatal error:  require_once(): Failed opening required '../includes/functions.php.php' (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 3
+[21-Nov-2017 01:34:34 UTC] PHP Warning:  include(../includes/layouts/login_navigation_header.php): failed to open stream: No such file or directory in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 9
+[21-Nov-2017 01:34:34 UTC] PHP Warning:  include(): Failed opening '../includes/layouts/login_navigation_header.php' for inclusion (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 9
+[21-Nov-2017 01:34:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function show_page_title() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php:56
+Stack trace:
+#0 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 56
+[21-Nov-2017 01:35:30 UTC] PHP Notice:  Undefined variable: validation_functions in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 4
+[21-Nov-2017 01:35:30 UTC] PHP Warning:  require_once(C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes): failed to open stream: Permission denied in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 4
+[21-Nov-2017 01:35:30 UTC] PHP Fatal error:  require_once(): Failed opening required '../includes/' (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 4
+[21-Nov-2017 01:36:39 UTC] PHP Notice:  Undefined variable: filename_login_navigation_header in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 9
+[21-Nov-2017 01:36:39 UTC] PHP Warning:  include(C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts): failed to open stream: Permission denied in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 9
+[21-Nov-2017 01:36:39 UTC] PHP Warning:  include(): Failed opening '../includes/layouts/' for inclusion (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 9
+[21-Nov-2017 01:36:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function show_page_title() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php:56
+Stack trace:
+#0 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 56
+[21-Nov-2017 01:36:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function show_page_title() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php:56
+Stack trace:
+#0 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 56
+[21-Nov-2017 01:37:18 UTC] PHP Warning:  include(../includes/layouts/login_navigation_footer.php): failed to open stream: No such file or directory in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 70
+[21-Nov-2017 01:37:18 UTC] PHP Warning:  include(): Failed opening '../includes/layouts/login_navigation_footer.php' for inclusion (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 70
+[21-Nov-2017 01:44:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function show_page_title() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\searchTitle.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\searchTitle.php on line 16
+[21-Nov-2017 02:09:02 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 20
+[21-Nov-2017 02:09:02 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 34
+[21-Nov-2017 02:09:02 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 34
+[21-Nov-2017 02:09:02 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 34
+[21-Nov-2017 02:09:02 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 20
+[21-Nov-2017 02:09:02 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 34
+[21-Nov-2017 02:09:02 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 20
+[21-Nov-2017 02:11:07 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 20
+[21-Nov-2017 02:11:07 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 34
+[21-Nov-2017 02:11:07 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 34
+[21-Nov-2017 02:11:07 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 34
+[21-Nov-2017 02:11:07 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 20
+[21-Nov-2017 02:11:07 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 34
+[21-Nov-2017 02:11:07 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 20
+[21-Nov-2017 02:11:07 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 20
+[21-Nov-2017 02:11:07 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 34
+[21-Nov-2017 02:11:07 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 34
+[21-Nov-2017 02:11:07 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 34
+[21-Nov-2017 02:11:07 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 20
+[21-Nov-2017 02:11:07 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 34
+[21-Nov-2017 02:11:07 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 20
+[21-Nov-2017 02:12:39 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 20
+[21-Nov-2017 02:12:39 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 34
+[21-Nov-2017 02:12:39 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 34
+[21-Nov-2017 02:12:39 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 34
+[21-Nov-2017 02:12:39 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 20
+[21-Nov-2017 02:12:39 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 34
+[21-Nov-2017 02:12:39 UTC] PHP Notice:  Undefined variable: filename_main in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 20
+[21-Nov-2017 02:13:55 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\filenames.php on line 19
+[21-Nov-2017 03:15:15 UTC] PHP Notice:  Undefined index: visible in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 16
+[21-Nov-2017 03:15:15 UTC] PHP Notice:  Undefined index: UserRole in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 304
+[21-Nov-2017 03:15:15 UTC] PHP Notice:  Undefined index: visible in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 32
+[21-Nov-2017 03:15:15 UTC] PHP Notice:  Undefined index: UserRole in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 304
+[21-Nov-2017 03:15:15 UTC] PHP Notice:  Undefined index: visible in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 32
+[21-Nov-2017 03:15:15 UTC] PHP Notice:  Undefined index: UserRole in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 304
+[21-Nov-2017 03:15:15 UTC] PHP Notice:  Undefined index: visible in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 32
+[21-Nov-2017 03:15:15 UTC] PHP Notice:  Undefined index: UserRole in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 304
+[21-Nov-2017 03:15:15 UTC] PHP Notice:  Undefined index: visible in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 16
+[21-Nov-2017 03:15:15 UTC] PHP Notice:  Undefined index: UserRole in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 304
+[21-Nov-2017 03:15:15 UTC] PHP Notice:  Undefined index: visible in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 32
+[21-Nov-2017 03:15:15 UTC] PHP Notice:  Undefined index: UserRole in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 304
+[21-Nov-2017 03:15:15 UTC] PHP Notice:  Undefined index: visible in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 16
+[21-Nov-2017 03:15:15 UTC] PHP Notice:  Undefined index: UserRole in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 304
+[21-Nov-2017 03:15:39 UTC] PHP Notice:  Undefined index: UserRole in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 304
+[21-Nov-2017 03:15:39 UTC] PHP Notice:  Undefined index: UserRole in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 304
+[21-Nov-2017 03:15:39 UTC] PHP Notice:  Undefined index: UserRole in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 304
+[21-Nov-2017 03:16:40 UTC] PHP Notice:  Undefined index: UserRole in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 186
+[21-Nov-2017 03:16:40 UTC] PHP Notice:  Undefined index: UserRole in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 192
+[21-Nov-2017 03:16:40 UTC] PHP Notice:  Undefined index: UserRole in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 186
+[21-Nov-2017 03:16:40 UTC] PHP Notice:  Undefined index: UserRole in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 192
+[21-Nov-2017 03:16:40 UTC] PHP Notice:  Undefined index: UserRole in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 186
+[21-Nov-2017 03:16:40 UTC] PHP Notice:  Undefined index: UserRole in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 192
+[21-Nov-2017 03:16:40 UTC] PHP Notice:  Undefined index: UserRole in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 186
+[21-Nov-2017 03:16:40 UTC] PHP Notice:  Undefined index: UserRole in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 192
+[21-Nov-2017 03:17:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function find_title_by_titlename() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\search_title.php:34
+Stack trace:
+#0 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\search_title.php on line 34
+[21-Nov-2017 03:18:40 UTC] PHP Notice:  Undefined variable: titlename in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\search_title.php on line 34
+[21-Nov-2017 03:19:55 UTC] PHP Notice:  Undefined variable: titlename in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\search_title.php on line 34
+[21-Nov-2017 03:20:08 UTC] PHP Notice:  Undefined variable: titlename in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\search_title.php on line 34
+[21-Nov-2017 03:27:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_formatted_errors() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php:33
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php(27): sql_confirm_query(false)
+#1 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php(227): sql_request_query('INSERT INTO Web...')
+#2 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\new_user.php(32): create_user(Array)
+#3 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sql_functions.php on line 33
+[21-Nov-2017 13:19:09 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 22
+[21-Nov-2017 13:20:26 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 22
+[21-Nov-2017 13:58:04 UTC] PHP Parse error:  syntax error, unexpected 'log_out' (T_STRING) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 24
+[21-Nov-2017 14:00:50 UTC] PHP Notice:  Undefined variable: page_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 13
+[21-Nov-2017 14:03:49 UTC] PHP Notice:  Undefined index: temp123 in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 14
+[21-Nov-2017 14:07:24 UTC] PHP Notice:  Undefined index: UserRole in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 237
+[21-Nov-2017 14:09:21 UTC] PHP Notice:  Undefined index: UserRole in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 237
+[21-Nov-2017 14:33:01 UTC] PHP Notice:  Undefined variable: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\edit_user.php on line 58
+[21-Nov-2017 14:34:24 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\edit_user.php on line 23
+[21-Nov-2017 14:36:20 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 603
+[21-Nov-2017 14:37:13 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\edit_user.php on line 23
+[21-Nov-2017 14:37:13 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\edit_user.php on line 36
+[21-Nov-2017 14:37:37 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\edit_user.php on line 23
+[21-Nov-2017 14:37:37 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\edit_user.php on line 36
+[21-Nov-2017 14:40:33 UTC] PHP Notice:  Array to string conversion in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 317
+[21-Nov-2017 14:46:56 UTC] PHP Notice:  Undefined variable: title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\search_title.php on line 53
+[21-Nov-2017 14:48:44 UTC] PHP Notice:  Undefined index: title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\search_title.php on line 53
+[21-Nov-2017 14:49:46 UTC] PHP Notice:  Undefined index: title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\search_title.php on line 59
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:05 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:05 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:05 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:05 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:05 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:05 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:05 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:05 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:05 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:05 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:05 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:05 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:40 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:40 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:40 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:40 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:28:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:29:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:29:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:29:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:29:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:29:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:29:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:29:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:29:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:29:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:29:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:29:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:29:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:29:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:29:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:29:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:29:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:29:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:29:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:29:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:29:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:29:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:42 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:42 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:42 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:42 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:42 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:42 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:42 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:42 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:42 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:42 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:42 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:42 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:42 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:42 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:42 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:42 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:42 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:42 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:56 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:56 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:56 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:56 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:56 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:56 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:56 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:56 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:56 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:56 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:56 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:56 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:56 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:56 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:56 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:56 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:56 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:56 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:56 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:56 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:57 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:57 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:57 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:57 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:57 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:57 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:57 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:57 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:57 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:57 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:57 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:57 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:57 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:57 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:57 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:57 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:57 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:57 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:57 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:57 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:57 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:30:57 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:02 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:02 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:02 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:02 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:02 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:02 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:02 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:02 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:03 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:03 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:03 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:03 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:03 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:03 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:03 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:03 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:03 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:03 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:03 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:03 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:03 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:33 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:33 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:33 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:33 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:33 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:33 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:33 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:33 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:33 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:33 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:33 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:33 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:33 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:33 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:33 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:33 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:33 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:33 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:33 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:33 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:31:33 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:32:33 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:32:33 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:32:34 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:32:34 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:32:34 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:32:34 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:32:34 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:32:34 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:32:34 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:32:34 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:32:34 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:32:34 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:32:34 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:32:34 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:32:34 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:32:34 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:32:34 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:32:34 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:32:34 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:32:34 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:32:34 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:04 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:05 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:05 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:05 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:05 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:10 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:40 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:40 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:40 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:40 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:40 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:40 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:40 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:40 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:40 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:40 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:40 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:40 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:40 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:41 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:59 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:59 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:59 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:59 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:59 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:59 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:59 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:59 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:59 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:59 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:59 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:59 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:59 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:59 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:59 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:59 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:59 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:59 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:59 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:59 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:43:59 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:07 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:07 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:07 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:07 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:08 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:14 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:14 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:14 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:14 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:14 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:14 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:14 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:14 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:14 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:14 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:14 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:14 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:14 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:14 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:14 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:14 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:14 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:14 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:14 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:14 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:14 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:44 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:44 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 426
+[22-Nov-2017 23:44:44 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:44 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 426
+[22-Nov-2017 23:44:44 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:44 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 426
+[22-Nov-2017 23:44:44 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:44 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 426
+[22-Nov-2017 23:44:44 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:44 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 426
+[22-Nov-2017 23:44:44 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:44 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 426
+[22-Nov-2017 23:44:44 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:44 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 426
+[22-Nov-2017 23:44:44 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:44 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 426
+[22-Nov-2017 23:44:44 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:44 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 426
+[22-Nov-2017 23:44:45 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:45 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 426
+[22-Nov-2017 23:44:45 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:45 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 426
+[22-Nov-2017 23:44:45 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:45 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 426
+[22-Nov-2017 23:44:45 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:45 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 426
+[22-Nov-2017 23:44:45 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:45 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 426
+[22-Nov-2017 23:44:45 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:45 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 426
+[22-Nov-2017 23:44:45 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:45 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 426
+[22-Nov-2017 23:44:45 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:45 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 426
+[22-Nov-2017 23:44:45 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:45 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 426
+[22-Nov-2017 23:44:45 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:45 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 426
+[22-Nov-2017 23:44:45 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:45 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 426
+[22-Nov-2017 23:44:45 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:44:45 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 426
+[22-Nov-2017 23:44:49 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:48:52 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 423
+[22-Nov-2017 23:48:52 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:49:43 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 423
+[22-Nov-2017 23:49:43 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[22-Nov-2017 23:50:43 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 423
+[22-Nov-2017 23:50:43 UTC] PHP Notice:  Undefined variable: filename_search_title in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 425
+[23-Nov-2017 00:03:25 UTC] PHP Parse error:  syntax error, unexpected '*' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 265
+[23-Nov-2017 00:04:12 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 237
+[23-Nov-2017 00:08:03 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 237
+[23-Nov-2017 00:08:39 UTC] PHP Notice:  Undefined index: userID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 237
+[23-Nov-2017 00:13:16 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 32
+[23-Nov-2017 00:14:03 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 32
+[23-Nov-2017 00:14:18 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 33
+[23-Nov-2017 00:59:06 UTC] PHP Notice:  Undefined variable: filename_header in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 8
+[23-Nov-2017 00:59:06 UTC] PHP Warning:  include(C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts): failed to open stream: Permission denied in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 8
+[23-Nov-2017 00:59:06 UTC] PHP Warning:  include(): Failed opening '../includes/layouts/' for inclusion (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 8
+[23-Nov-2017 00:59:06 UTC] PHP Notice:  Undefined variable: filename_footer in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 49
+[23-Nov-2017 00:59:06 UTC] PHP Warning:  include(C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts): failed to open stream: Permission denied in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 49
+[23-Nov-2017 00:59:06 UTC] PHP Warning:  include(): Failed opening '../includes/layouts/' for inclusion (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 49
+[23-Nov-2017 00:59:29 UTC] PHP Notice:  Undefined variable: filename_footer in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 49
+[23-Nov-2017 00:59:29 UTC] PHP Warning:  include(C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts): failed to open stream: Permission denied in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 49
+[23-Nov-2017 00:59:29 UTC] PHP Warning:  include(): Failed opening '../includes/layouts/' for inclusion (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 49
+[23-Nov-2017 01:02:36 UTC] PHP Warning:  require_once(../includes/layouts/standard_include_bottom.php): failed to open stream: No such file or directory in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\search_title.php on line 57
+[23-Nov-2017 01:02:36 UTC] PHP Fatal error:  require_once(): Failed opening required '../includes/layouts/standard_include_bottom.php' (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\search_title.php on line 57
+[23-Nov-2017 01:03:09 UTC] PHP Notice:  Undefined variable: filename_footer in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\standard_include_bottom.php on line 3
+[23-Nov-2017 01:03:09 UTC] PHP Warning:  include(C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts): failed to open stream: Permission denied in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\standard_include_bottom.php on line 3
+[23-Nov-2017 01:03:09 UTC] PHP Warning:  include(): Failed opening '../includes/layouts/' for inclusion (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\standard_include_bottom.php on line 3
+[23-Nov-2017 01:04:03 UTC] PHP Notice:  Undefined variable: current_subject in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 14
+[23-Nov-2017 01:04:03 UTC] PHP Notice:  Undefined variable: current_page in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 19
+[23-Nov-2017 01:04:03 UTC] PHP Notice:  Undefined variable: filename_footer in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 42
+[23-Nov-2017 01:04:03 UTC] PHP Warning:  include(C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts): failed to open stream: Permission denied in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 42
+[23-Nov-2017 01:04:03 UTC] PHP Warning:  include(): Failed opening '../includes/layouts/' for inclusion (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 42
+[23-Nov-2017 01:06:03 UTC] PHP Notice:  Undefined variable: filename_standard_header in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\standard_include_top.php on line 2
+[23-Nov-2017 01:06:03 UTC] PHP Warning:  include(C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts): failed to open stream: Permission denied in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\standard_include_top.php on line 2
+[23-Nov-2017 01:06:03 UTC] PHP Warning:  include(): Failed opening '../includes/layouts/' for inclusion (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\standard_include_top.php on line 2
+[23-Nov-2017 01:06:03 UTC] PHP Notice:  Undefined variable: filename_standard_sidebar_left in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\standard_include_top.php on line 3
+[23-Nov-2017 01:06:03 UTC] PHP Warning:  include(C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts): failed to open stream: Permission denied in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\standard_include_top.php on line 3
+[23-Nov-2017 01:06:03 UTC] PHP Warning:  include(): Failed opening '../includes/layouts/' for inclusion (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\standard_include_top.php on line 3
+[23-Nov-2017 01:06:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function confirm_logged_in() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php:4
+Stack trace:
+#0 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 4
+[23-Nov-2017 01:14:52 UTC] PHP Warning:  require_once(../includes/standard_include_top.php): failed to open stream: No such file or directory in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 2
+[23-Nov-2017 01:14:52 UTC] PHP Fatal error:  require_once(): Failed opening required '../includes/standard_include_top.php' (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 2
+[23-Nov-2017 01:15:38 UTC] PHP Notice:  Undefined variable: filename_header in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\about_sql.php on line 8
+[23-Nov-2017 01:15:38 UTC] PHP Warning:  include(C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts): failed to open stream: Permission denied in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\about_sql.php on line 8
+[23-Nov-2017 01:15:38 UTC] PHP Warning:  include(): Failed opening '../includes/layouts/' for inclusion (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\about_sql.php on line 8
+[23-Nov-2017 01:15:38 UTC] PHP Notice:  Undefined variable: filename_footer in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\about_sql.php on line 36
+[23-Nov-2017 01:15:38 UTC] PHP Warning:  include(C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\layouts): failed to open stream: Permission denied in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\about_sql.php on line 36
+[23-Nov-2017 01:15:38 UTC] PHP Warning:  include(): Failed opening '../includes/layouts/' for inclusion (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\about_sql.php on line 36
+[23-Nov-2017 01:23:37 UTC] PHP Warning:  require_once(../includes/login_include_top.php): failed to open stream: No such file or directory in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 2
+[23-Nov-2017 01:23:37 UTC] PHP Fatal error:  require_once(): Failed opening required '../includes/login_include_top.php' (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php on line 2
+[23-Nov-2017 01:38:27 UTC] PHP Parse error:  syntax error, unexpected '{' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\require_include\standard_require_top.php on line 6
+[23-Nov-2017 01:38:43 UTC] PHP Warning:  require_once(../includes/includes/functions.php): failed to open stream: No such file or directory in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\require_include\standard_require_top.php on line 2
+[23-Nov-2017 01:38:43 UTC] PHP Fatal error:  require_once(): Failed opening required '../includes/includes/functions.php' (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\require_include\standard_require_top.php on line 2
+[23-Nov-2017 01:39:14 UTC] PHP Warning:  include(../includes/includes/layout/standard_header.php): failed to open stream: No such file or directory in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\require_include\standard_include_top.php on line 2
+[23-Nov-2017 01:39:14 UTC] PHP Warning:  include(): Failed opening '../includes/includes/layout/standard_header.php' for inclusion (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\require_include\standard_include_top.php on line 2
+[23-Nov-2017 01:39:14 UTC] PHP Warning:  include(../includes/includes/layout/standard_sidebar_left.php): failed to open stream: No such file or directory in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\require_include\standard_include_top.php on line 3
+[23-Nov-2017 01:39:14 UTC] PHP Warning:  include(): Failed opening '../includes/includes/layout/standard_sidebar_left.php' for inclusion (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\require_include\standard_include_top.php on line 3
+[23-Nov-2017 01:39:14 UTC] PHP Notice:  Undefined variable: current_subject in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 16
+[23-Nov-2017 01:39:14 UTC] PHP Notice:  Undefined variable: current_page in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 21
+[23-Nov-2017 01:39:14 UTC] PHP Warning:  include(../includes/includes/layout/standard_sidebar_right.php): failed to open stream: No such file or directory in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\require_include\standard_include_bottom.php on line 2
+[23-Nov-2017 01:39:14 UTC] PHP Warning:  include(): Failed opening '../includes/includes/layout/standard_sidebar_right.php' for inclusion (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\require_include\standard_include_bottom.php on line 2
+[23-Nov-2017 01:39:14 UTC] PHP Warning:  include(../includes/includes/layout/standard_footer.php): failed to open stream: No such file or directory in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\require_include\standard_include_bottom.php on line 3
+[23-Nov-2017 01:39:14 UTC] PHP Warning:  include(): Failed opening '../includes/includes/layout/standard_footer.php' for inclusion (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\require_include\standard_include_bottom.php on line 3
+[23-Nov-2017 01:39:56 UTC] PHP Warning:  include(../includes/layout/standard_header.php): failed to open stream: No such file or directory in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\require_include\standard_include_top.php on line 2
+[23-Nov-2017 01:39:56 UTC] PHP Warning:  include(): Failed opening '../includes/layout/standard_header.php' for inclusion (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\require_include\standard_include_top.php on line 2
+[23-Nov-2017 01:39:56 UTC] PHP Warning:  include(../includes/layout/standard_sidebar_left.php): failed to open stream: No such file or directory in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\require_include\standard_include_top.php on line 3
+[23-Nov-2017 01:39:56 UTC] PHP Warning:  include(): Failed opening '../includes/layout/standard_sidebar_left.php' for inclusion (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\require_include\standard_include_top.php on line 3
+[23-Nov-2017 01:39:56 UTC] PHP Notice:  Undefined variable: current_subject in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 16
+[23-Nov-2017 01:39:56 UTC] PHP Notice:  Undefined variable: current_page in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\main.php on line 21
+[23-Nov-2017 01:39:56 UTC] PHP Warning:  include(../includes/layout/standard_sidebar_right.php): failed to open stream: No such file or directory in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\require_include\standard_include_bottom.php on line 2
+[23-Nov-2017 01:39:56 UTC] PHP Warning:  include(): Failed opening '../includes/layout/standard_sidebar_right.php' for inclusion (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\require_include\standard_include_bottom.php on line 2
+[23-Nov-2017 01:39:56 UTC] PHP Warning:  include(../includes/layout/standard_footer.php): failed to open stream: No such file or directory in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\require_include\standard_include_bottom.php on line 3
+[23-Nov-2017 01:39:56 UTC] PHP Warning:  include(): Failed opening '../includes/layout/standard_footer.php' for inclusion (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\require_include\standard_include_bottom.php on line 3
+[23-Nov-2017 17:29:55 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 343
+[23-Nov-2017 17:37:01 UTC] PHP Notice:  Undefined variable: new_username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\edit_user.php on line 58
+[23-Nov-2017 17:38:09 UTC] PHP Notice:  Undefined variable: new_username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\edit_user.php on line 59
+[23-Nov-2017 17:40:25 UTC] PHP Notice:  Undefined index: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 248
+[23-Nov-2017 17:42:49 UTC] PHP Notice:  Undefined index: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 248
+[23-Nov-2017 17:46:11 UTC] PHP Notice:  Undefined variable: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\edit_user.php on line 30
+[23-Nov-2017 17:46:19 UTC] PHP Notice:  Undefined variable: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\edit_user.php on line 30
+[23-Nov-2017 17:46:30 UTC] PHP Notice:  Undefined variable: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\edit_user.php on line 30
+[23-Nov-2017 17:47:06 UTC] PHP Notice:  Undefined index: username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 248
+[23-Nov-2017 21:03:28 UTC] PHP Parse error:  syntax error, unexpected '$output' (T_VARIABLE) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 240
+[23-Nov-2017 21:49:22 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 202
+[23-Nov-2017 22:48:47 UTC] PHP Parse error:  syntax error, unexpected '$output' (T_VARIABLE) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 54
+[23-Nov-2017 22:51:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function show_sidebar_right() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\current_user.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\current_user.php on line 17
+[23-Nov-2017 22:52:34 UTC] PHP Notice:  Undefined variable: info in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\current_user.php on line 17
+[23-Nov-2017 22:54:52 UTC] PHP Notice:  Undefined variable: new_username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\current_user.php on line 23
+[23-Nov-2017 22:55:06 UTC] PHP Notice:  Undefined variable: current_username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\current_user.php on line 20
+[23-Nov-2017 22:55:06 UTC] PHP Notice:  Undefined variable: new_username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\current_user.php on line 23
+[23-Nov-2017 22:55:16 UTC] PHP Notice:  Undefined variable: new_username in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\current_user.php on line 23
+[24-Nov-2017 00:00:33 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\current_user.php on line 29
+[24-Nov-2017 00:36:59 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 412
+[24-Nov-2017 00:40:12 UTC] PHP Notice:  Undefined variable: time in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\current_user.php on line 31
+[24-Nov-2017 00:40:18 UTC] PHP Parse error:  syntax error, unexpected '?>' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\current_user.php on line 31
+[24-Nov-2017 01:55:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function update_user_log() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php:522
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\search_title.php(6): confirm_logged_in()
+#1 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 522
+[24-Nov-2017 02:06:15 UTC] PHP Notice:  Undefined index: login_id in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 498
+[24-Nov-2017 02:08:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function SCOPE_IDENTITY() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php:490
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php(468): log_user_in_database(Array)
+#1 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\login.php(29): attempt_login('Maethor', 'titleManager')
+#2 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 490
+[24-Nov-2017 02:34:53 UTC] PHP Notice:  Undefined variable: queryID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 494
+[24-Nov-2017 02:34:53 UTC] PHP Warning:  sqlsrv_next_result() expects parameter 1 to be resource, null given in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 494
+[24-Nov-2017 02:34:53 UTC] PHP Notice:  Undefined variable: queryID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 495
+[24-Nov-2017 02:34:53 UTC] PHP Warning:  sqlsrv_fetch() expects parameter 1 to be resource, null given in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 495
+[24-Nov-2017 02:36:54 UTC] PHP Notice:  Undefined variable: queryID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 494
+[24-Nov-2017 02:36:54 UTC] PHP Warning:  sqlsrv_next_result() expects parameter 1 to be resource, null given in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 494
+[24-Nov-2017 02:36:54 UTC] PHP Notice:  Undefined variable: queryID in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 495
+[24-Nov-2017 02:36:54 UTC] PHP Warning:  sqlsrv_fetch() expects parameter 1 to be resource, null given in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 495
+[24-Nov-2017 02:36:54 UTC] PHP Warning:  sqlsrv_get_field() expects parameter 2 to be integer, string given in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 496
+[24-Nov-2017 02:37:34 UTC] PHP Warning:  sqlsrv_get_field() expects parameter 2 to be integer, string given in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 496
+[24-Nov-2017 02:38:19 UTC] PHP Warning:  sqlsrv_get_field() expects parameter 2 to be integer, string given in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 496
+[24-Nov-2017 02:38:44 UTC] PHP Warning:  sqlsrv_get_field() expects parameter 2 to be integer, string given in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 496
+[24-Nov-2017 02:51:00 UTC] PHP Notice:  Undefined variable: temp in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 502
