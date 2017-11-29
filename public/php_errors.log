@@ -1015,3 +1015,125 @@ Stack trace:
 [24-Nov-2017 02:38:19 UTC] PHP Warning:  sqlsrv_get_field() expects parameter 2 to be integer, string given in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 496
 [24-Nov-2017 02:38:44 UTC] PHP Warning:  sqlsrv_get_field() expects parameter 2 to be integer, string given in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 496
 [24-Nov-2017 02:51:00 UTC] PHP Notice:  Undefined variable: temp in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 502
+[27-Nov-2017 16:32:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function make_manage_user_list_of_userrole() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\manage_users.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\manage_users.php on line 26
+[28-Nov-2017 13:20:46 Europe/Oslo] PHP Notice:  Undefined variable: sql_datetime_fractional_second_precision in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 554
+[28-Nov-2017 13:20:46 Europe/Oslo] PHP Notice:  Undefined variable: date_format in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 527
+[28-Nov-2017 13:20:46 Europe/Oslo] PHP Notice:  Undefined variable: mSecs in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 527
+[28-Nov-2017 13:43:08 UTC] PHP Notice:  Use of undefined constant SQL_DATETIME_FRAC_SEC_PRECISIONz - assumed 'SQL_DATETIME_FRAC_SEC_PRECISIONz' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 522
+[28-Nov-2017 13:43:08 UTC] PHP Warning:  A non-numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 525
+[28-Nov-2017 13:43:08 UTC] PHP Notice:  Use of undefined constant SQL_DATETIME_FRAC_SEC_PRECISIONz - assumed 'SQL_DATETIME_FRAC_SEC_PRECISIONz' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 522
+[28-Nov-2017 13:43:08 UTC] PHP Warning:  A non-numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 525
+[28-Nov-2017 14:59:29 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[28-Nov-2017 14:59:45 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 05:41:17 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 05:41:58 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 05:43:39 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 05:44:50 Europe/Oslo] PHP Parse error:  syntax error, unexpected ')' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 05:46:08 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 05:46:08 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 05:46:40 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 05:46:40 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 05:46:41 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 05:46:41 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 05:46:41 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 05:46:41 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:01:34 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 33
+[29-Nov-2017 06:01:34 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 33
+[29-Nov-2017 06:01:34 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 33
+[29-Nov-2017 06:01:34 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 33
+[29-Nov-2017 06:06:41 Europe/Oslo] PHP Notice:  Object of class DateTime could not be converted to int in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 33
+[29-Nov-2017 06:06:41 Europe/Oslo] PHP Notice:  Object of class DateTime could not be converted to int in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 33
+[29-Nov-2017 06:06:41 Europe/Oslo] PHP Notice:  Object of class DateTime could not be converted to int in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 33
+[29-Nov-2017 06:06:41 Europe/Oslo] PHP Notice:  Object of class DateTime could not be converted to int in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 33
+[29-Nov-2017 06:08:56 Europe/Oslo] PHP Recoverable fatal error:  Object of class DateInterval could not be converted to string in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 33
+[29-Nov-2017 06:19:50 Europe/Oslo] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 582
+[29-Nov-2017 06:21:52 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 28
+[29-Nov-2017 06:21:52 Europe/Oslo] PHP Warning:  A non-numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 28
+[29-Nov-2017 06:24:29 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 28
+[29-Nov-2017 06:24:29 Europe/Oslo] PHP Warning:  A non-numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 28
+[29-Nov-2017 06:25:57 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 28
+[29-Nov-2017 06:25:57 Europe/Oslo] PHP Warning:  A non-numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 28
+[29-Nov-2017 06:31:03 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 28
+[29-Nov-2017 06:31:03 Europe/Oslo] PHP Warning:  A non-numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 28
+[29-Nov-2017 06:37:32 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:37:32 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:37:32 Europe/Oslo] PHP Fatal error:  Uncaught Error: Call to undefined function find_username_by_id() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\edit_user.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\edit_user.php on line 17
+[29-Nov-2017 06:38:06 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:38:06 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:38:21 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:38:21 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:38:22 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:38:22 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:38:31 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:38:31 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:39:26 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:39:26 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:39:26 Europe/Oslo] PHP Warning:  A non-numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 33
+[29-Nov-2017 06:40:27 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:40:27 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:40:27 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:40:27 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:40:37 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:40:37 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:40:42 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:40:42 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:40:42 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:40:42 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:40:45 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:40:45 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:40:45 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:40:45 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:43:16 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:43:16 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:43:20 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:43:20 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:43:23 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:43:23 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:43:23 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:43:23 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:43:28 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:43:28 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:43:31 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:43:31 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:43:38 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:43:38 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:43:38 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 06:43:38 Europe/Oslo] PHP Notice:  A non well formed numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\sessions.php on line 26
+[29-Nov-2017 07:36:11 Europe/Oslo] PHP Parse error:  syntax error, unexpected ';' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 58
+[29-Nov-2017 06:36:33 UTC] PHP Notice:  Undefined variable: login_id in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\logout.php on line 9
+[29-Nov-2017 06:36:33 UTC] PHP Notice:  Use of undefined constant SQL_DATETIME_FRAC_SEC_PRECISIONz - assumed 'SQL_DATETIME_FRAC_SEC_PRECISIONz' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 537
+[29-Nov-2017 06:36:33 UTC] PHP Warning:  A non-numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 540
+[29-Nov-2017 06:36:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sql_request_query() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php:581
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\logout.php(9): update_user_log_in_database(NULL)
+#1 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 581
+[29-Nov-2017 06:37:21 UTC] PHP Notice:  Use of undefined constant SQL_DATETIME_FRAC_SEC_PRECISIONz - assumed 'SQL_DATETIME_FRAC_SEC_PRECISIONz' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 537
+[29-Nov-2017 06:37:21 UTC] PHP Warning:  A non-numeric value encountered in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 540
+[29-Nov-2017 06:37:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sql_request_query() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php:581
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\logout.php(9): update_user_log_in_database('44')
+#1 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 581
+[29-Nov-2017 06:39:06 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\logout.php on line 4
+[29-Nov-2017 07:39:16 Europe/Oslo] PHP Fatal error:  Uncaught Error: Call to undefined function sql_request_query() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php:581
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\logout.php(10): update_user_log_in_database('44')
+#1 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 581
+[29-Nov-2017 06:39:58 UTC] PHP Warning:  include(../includes/layouts/header.php): failed to open stream: No such file or directory in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\index.php on line 4
+[29-Nov-2017 06:39:58 UTC] PHP Warning:  include(): Failed opening '../includes/layouts/header.php' for inclusion (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\index.php on line 4
+[29-Nov-2017 07:39:58 Europe/Oslo] PHP Fatal error:  Uncaught Error: Call to undefined function sql_request_query() in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php:581
+Stack trace:
+#0 C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\logout.php(10): update_user_log_in_database('44')
+#1 {main}
+  thrown in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\includes\functions.php on line 581
+[29-Nov-2017 06:40:35 UTC] PHP Notice:  Undefined variable: standard_require_top in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\logout.php on line 3
+[29-Nov-2017 06:40:35 UTC] PHP Warning:  require_once(C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public): failed to open stream: Permission denied in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\logout.php on line 3
+[29-Nov-2017 06:40:35 UTC] PHP Fatal error:  require_once(): Failed opening required '' (include_path='.;C:\php\pear') in C:\Maethor\Program Filez\Web Development\Atom\TitleManagerTest\public\logout.php on line 3

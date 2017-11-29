@@ -1,4 +1,5 @@
 <?php
+require_once($filename_config);
 require_once($filename_functions);
 require_once($filename_validation_functions);
 require_once($filename_sql_functions);

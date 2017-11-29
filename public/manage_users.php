@@ -5,6 +5,7 @@ include($filename_standard_include_top);
 
 confirm_logged_in();
 confirm_is_admin();
+confirm_session();
 ?>
 
 <?php
@@ -13,19 +14,28 @@ echo show_page_title($page_title);
 echo session_message();
 ?>
 
-<h5>Admins</h5>
-<?php
-echo make_user_list_of_userrole(1);
-?>
-<h4>Users</h4>
-<?php
-echo make_user_list_of_userrole(2);
-?>
 
 <?php
-echo make_userlist();
-echo make_user_list_of_userrole(1);
-echo make_user_list_of_userrole(2);
+$output  = "<ul class=\"users\">";
+$output .= "<li class=\"users\">";
+$output .= "<div><h3 class=\"users\">Username</h3></div>";
+$output .= "<div><h3 class=\"users\">Action</h3></div>";
+$output .= "</li>";
+$output .= "<li class=\"headers\">";
+$output .= "<div><h4 class=\"users\">Admins</h4></div>";
+$output .= "</li>";
+$output .= make_manage_user_list_of_userrole(1);
+$output .= "<li class=\"users\">";
+$output .= "<div><h4 class=\"users\">Users</h4></div>";
+$output .= "</li>";
+$output .= make_manage_user_list_of_userrole(2);
+$output .= make_manage_user_list();
+$output .= "</ul>";
+// $output .= make_manage_user_list();
+
+echo $output;
+//echo make_user_list_of_userrole(1);
+//echo make_user_list_of_userrole(2);
 ?>
 <a href="new_user.php?page=3">Add new user</a>
 <?php

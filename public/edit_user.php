@@ -5,6 +5,7 @@ include($filename_standard_include_top);
 
 confirm_logged_in();
 confirm_is_admin();
+confirm_session();
 ?>
 
 <?php
@@ -13,7 +14,7 @@ echo show_page_title($page_title);
 ?>
 
 <?php
-$current_username = find_username_by_id($_GET["userID"]);
+$current_username = find_username_by_user_id($_GET["userID"]);
 $new_username = $current_username;
 if (isset($_POST["edit_user"])) {
   $new_username = $_POST["new_username"];

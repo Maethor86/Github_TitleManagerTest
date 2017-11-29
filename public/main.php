@@ -4,6 +4,7 @@ require_once($filename_standard_require_top);
 include($filename_standard_include_top);
 
 confirm_logged_in();
+confirm_session();
 ?>
 
 <?php

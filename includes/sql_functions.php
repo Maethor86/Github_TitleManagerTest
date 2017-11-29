@@ -2,6 +2,8 @@
 
 // sql application specific functions
 
+
+
 // sql technical functions
 function sql_connect_to_database() {
   // connects to the database
@@ -70,6 +72,7 @@ function sql_get_scope_identity($logged_user) {
   return $output;
 
 }
+
 // about sql
 function sql_show_current_user() {
   // displays the logged in user

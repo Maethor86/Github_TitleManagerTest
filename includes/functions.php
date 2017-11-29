@@ -49,6 +49,21 @@ function show_sidebar_left($subject_array, $page_array) {
 
 }
 
+function show_sidebar_left_back($subject_array, $page_array) {
+  global $filename_main;
+
+  $output  =  "<ul class=\"subjects\">";
+  $output .= "<li>";
+  $output .= "<a href={$filename_main}?subject=3>";
+  $output .= "<<< Back to main menu";
+  $output .= "</a>";
+  $output .= "</li>";
+  $output .= "</ul>";
+  return $output;
+
+}
+
+
 function make_sidebar_right($username) {
   $output  = "Currently logged in as: ";
   $output .= "<a href=\"current_user.php\">" . $username . "</a>";
@@ -179,13 +194,43 @@ function find_all_users() {
   return $user_set;
 }
 
-function make_userlist() {
+function make_manage_user_line($user, $userrole) {
+
+  $output  = "<li class=\"users\">";
+  $output .= "<div";
+  if ($user["UserRoleID"] == 1) {
+    $output .= " class=\"admins\"";
+  }
+  $output .= ">";
+  $output .= $user["Username"];
+  //if ($user["UserRoleID"] == 1) {
+  //
+  //}
+  $output .= "</div><div";
+  if ($user["UserRoleID"] == 1) {
+    $output .= " class=\"admins\">admin";
+  }
+  else {
+    $output .= "><a href=\"edit_user.php?userID=";
+    $output .= $user["UserID"];
+    $output .= " \" >";
+    $output .= "Edit";
+    $output .= "</a> ";
+    $output .= "<a href=\"delete_user.php?userID=";
+    $output .= $user["UserID"];
+    $output .= " \" >";
+    $output .= "Delete";
+    $output .= " </a>";
+  }
+  $output .= "</div></li>";
+  return $output;
+}
+
+function make_manage_user_list() {
 
   $user_set = find_all_users();
   $output  = "<ul class=\"users\">";
-  $output .= "<li class=\"users\">";
-  $output .= "<div><h3 class=\"users\">Username</h3></div>";
-  $output .= "<div><h3 class=\"users\">Action</h3></div>";
+  // $output .= "<li class=\"users\">";
   while ($user = sqlsrv_fetch_array($user_set, SQLSRV_FETCH_ASSOC)) {
     $output .= "<li class=\"users\">";
     $output .= "<div";
@@ -215,6 +260,18 @@ function make_userlist() {
       $output .= " </a>";
     }
     $output .= "</div></li>";
+  }
+  $output .= " </ul>";
+  return $output;
+
+}
+
+function make_manage_user_list_of_userrole($userrole) {
+
+  $user_set = find_users_of_userrole($userrole);
+  $output  = "<ul class=\"users\">";
+  while ($user = sqlsrv_fetch_array($user_set, SQLSRV_FETCH_ASSOC)) {
+    $output .= make_manage_user_line($user, $userrole);
   }
   $output .= " </ul>";
   return $output;
@@ -475,12 +532,25 @@ function attempt_login($username, $password) {
   }
 }
 
+function generate_datetime_for_sql() {
+
+  $fractional_second_precision = SQL_DATETIME_FRAC_SEC_PRECISIONz;
+  $time = microtime(TRUE);
+  $milli_secs =  $time - floor($time);
+  $milli_secs =  substr($milli_secs, 1, $fractional_second_precision + 1);
+  $datetime_format = "Y-m-d H:i:s";
+
+  $datetime =  date($datetime_format) . $milli_secs;
+  return $datetime;
+}
+
 function log_user_in_database($user) {
   //rename to create_user_log($user) ?
 
   $user_id = $user["UserID"];
-  $datetime_login = date('Y-m-d H:i:s');
-  $datetime_last_activity = date('Y-m-d H:i:s');
+  $datetime_login = generate_datetime_for_sql();
+
+  $datetime_last_activity = generate_datetime_for_sql();
   // date_default_timezone_set('Australia/Melbourne');
 
   // $safe_datetime_login = sql_stringprep($datetime_login);
@@ -492,12 +562,13 @@ function log_user_in_database($user) {
   // want to use prepared statements
   $logged_user = sql_request_query($query);
   $_SESSION["login_id"] = sql_get_scope_identity($logged_user);
+  $_SESSION["last_activity"] = $datetime_last_activity;
   return $logged_user;
 }
 
 function update_user_log_in_database($login_id) {
 
-  $datetime_last_activity = date('Y-m-d H:i:s');
+  $datetime_last_activity = generate_datetime_for_sql();
   // date_default_timezone_set('Australia/Melbourne');
 
   // $safe_datetime_login = sql_stringprep($datetime_login);
@@ -520,17 +591,8 @@ function confirm_logged_in() {
     log_out();
   }
   else {
-    // $_SESSION["user_id"] is set
-    if (isset($_SESSION["login_id"])) {
-      // $_SESSION["login_id"] is set, this should be set whenever $_SESSION["user_id"] is set
-      $login_id = $_SESSION["login_id"];
-      update_user_log_in_database($login_id);
-    }
-    else {
-      $_SESSION["message"] = "Warning: User will not be logged in the database.";
-    }
-
   }
+
 }
 
 function is_admin() {

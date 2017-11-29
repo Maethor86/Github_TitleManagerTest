@@ -1,10 +1,11 @@
 <?php
 require_once("../includes/filenames.php");
 require_once($filename_standard_require_top);
-include($filename_standard_include_top);
+include($filename_back_sidebar_left_include_top);
 
 confirm_logged_in();
 confirm_is_admin();
+confirm_session();
 ?>
 
 <?php

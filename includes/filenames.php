@@ -5,6 +5,7 @@ $filename_standard_sidebar_left = "../includes/layouts/standard_sidebar_left.php
 $filename_login_sidebar_left = "../includes/layouts/login_sidebar_left.php";
 $filename_back_sidebar_left = "../includes/layouts/back_sidebar_left.php";
 
+$filename_config = "../includes/config.php";
 $filename_functions = "../includes/functions.php";
 $filename_validation_functions = "../includes/validation_functions.php";
 $filename_sql_functions = "../includes/sql_functions.php";
@@ -35,10 +36,13 @@ $filename_standard_include_top = "../includes/require_include/standard_include_t
 $filename_standard_require_bottom = "../includes/require_include/standard_require_bottom.php";
 $filename_standard_include_bottom = "../includes/require_include/standard_include_bottom.php";
 
+$filename_back_sidebar_left_include_top = "../includes/require_include/back_sidebar_left_include_top.php";
 
 $filename_login_require_top = "../includes/require_include/login_require_top.php";
 $filename_login_include_top = "../includes/require_include/login_include_top.php";
 $filename_login_require_bottom = "../includes/require_include/login_require_bottom.php";
 $filename_login_include_bottom = "../includes/require_include/login_include_bottom.php";
+
+
 
 ?>
