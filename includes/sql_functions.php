@@ -1,5 +1,8 @@
 <?php
 
+
+
+
 // sql application specific functions
 
 
@@ -16,23 +19,42 @@ function sql_connect_to_database() {
   // establishes the connection
   $conn = sqlsrv_connect( $serverName, $connectionOptions );
   if( $conn === false ) {
-      die( sqlsrv_formatted_errors( sqlsrv_errors()));
+    die(sql_log_errors(sqlsrv_errors()));
   }
   return $conn;
 }
 
-function sql_request_query($query) {
+function sql_request_query($query, $params) {
     //bad name of this function?
     global $connection;
 
-    $query_result = sqlsrv_query($connection, $query);
+    $query_result = sqlsrv_query($connection, $query, $params);
     sql_confirm_query($query_result);
+    return $query_result;
+}
+
+function sql_request_query_for_error_log($query, $params) {
+    //bad name of this function?
+    global $connection;
+
+    $query_result = sqlsrv_query($connection, $query, $params);
+    sql_confirm_query_for_error_log($query_result);
     return $query_result;
 }
 
 function sql_confirm_query($result_set) {
   if (!$result_set) {
-      die(sql_formatted_errors(sqlsrv_errors()));
+    throw new Exception("Error confirming query. <br />", EXCEPTION_CODE_SQL_CONFIRM_QUERY);
+  }
+}
+
+function sql_confirm_query_for_error_log($result_set) {
+  if (!$result_set) {
+    die(sql_formatted_errors(sqlsrv_errors()));
+    return FALSE;
+  }
+  else {
+    return TRUE;
   }
 }
 
@@ -53,16 +75,43 @@ function sql_disconnect_from_database() {
 }
 
 // misc functions
-function sql_formatted_errors( $errors ) {
-  // shows a list of errors when trying to connect with sql server
-    echo "Error information: <br/>";
+function sql_log_errors($exception, $sql_errors) {
+  $error_string = sql_formatted_errors($sql_errors);
 
-    foreach ( $errors as $error )
-    {
-        echo "SQLSTATE: ".$error['SQLSTATE']."<br/>";
-        echo "Code: ".$error['code']."<br/>";
-        echo "Message: ".$error['message']."<br/>";
-    }
+  if (log_sql_errors_in_database($exception, $error_string)) {
+    // errors logged in database
+    $error_string .= "Errors logged in the database.";
+  }
+  else {
+    // errors not logged in database
+    $error_string .= "Errors not logged in the database.";
+  }
+
+  $sql_error_log = fopen("sql_errors.log", "a") or die("Unable to open file!");
+  $error_string .= "\n";
+  fwrite($sql_error_log, $error_string);
+  fclose($sql_error_log);
+
+}
+
+function sql_formatted_errors($errors) {
+  // shows a list of errors when trying to connect with sql server
+  $output  = "[";
+  $output .= generate_datetime_for_sql();
+  $output .= "] ";
+  $output .= "Error information: ";
+
+  $count = 1;
+  foreach ( $errors as $error )
+  {
+    $output .= "Error number " . $count . ", ";
+    $output .= "SQLSTATE: ".$error['SQLSTATE'].", ";
+    $output .= "Code: ".$error['code'].", ";
+    $output .= "Message: ".$error['message'] . " ";
+    $count++;
+  }
+//  $output .= "";
+  return $output;
 }
 
 function sql_get_scope_identity($logged_user) {

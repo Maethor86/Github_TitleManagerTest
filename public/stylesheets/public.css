@@ -40,7 +40,19 @@ p,h1,h2,h3 {
   margin: 0; padding: 1em; text-align: left;
   background: #1A446C; color: #D4E6F4;
 }
-#header h1 { padding: 0.5em; margin: 0; }
+#header h1 {
+  font-size: 2em;
+  padding: 0.5em;
+  margin: 0;
+}
+#header a {
+  text-decoration: none;
+  color: #D4E6F4
+
+}
+#header a:hover {
+  color: #D4E6F4
+}
 #main {
   flex: 1;
 
@@ -145,15 +157,6 @@ li.users {
   font-style: italic;
 }
 
-.headers {
-  padding: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin: 0;
-  display: table-row;
-}
-
-
 #page .users h3 {
   color: #000000;
   font-weight: bold;
@@ -188,4 +191,25 @@ div.error {
   border: 2px solid #8D0D19;
   color: #8D0D19; font-weight: bold;
   margin: 1em 0; padding: 1em;
+}
+.error h3 {
+  font-style: italic;
+}
+
+h2.page_header {
+  font-size: 1.5em;
+  color: #8D0D19;
+  padding: 0;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  border: 0;
+  margin: 0;
+}
+
+li.page_header {
+  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+  display: table-row;
 }

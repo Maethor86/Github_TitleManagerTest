@@ -34,7 +34,7 @@ elseif ($current_page) {
   }
 }
 else {
-  echo "Welcome!";
+  echo "Welcome to Title Manager! Navigate the site by the sidebar on the left!";
 }
 
 ?>

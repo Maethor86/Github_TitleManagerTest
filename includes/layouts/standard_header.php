@@ -10,5 +10,5 @@
 	<div id="headermainfooter">
 
 		<div id="header">
-			<h1>Title Manager</h1>
+			<h1 id="header"><a href=<?php echo $filename_main ?>>Title Manager</a></h1>
 		</div>

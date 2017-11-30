@@ -21,7 +21,7 @@ $output .= "<li class=\"users\">";
 $output .= "<div><h3 class=\"users\">Username</h3></div>";
 $output .= "<div><h3 class=\"users\">Action</h3></div>";
 $output .= "</li>";
-$output .= "<li class=\"headers\">";
+$output .= "<li class=\"page_header\">";
 $output .= "<div><h4 class=\"users\">Admins</h4></div>";
 $output .= "</li>";
 $output .= make_manage_user_list_of_userrole(1);

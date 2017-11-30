@@ -6,6 +6,13 @@ function redirect_to($new_location) {
   exit;
 }
 
+// exception funtions
+function make_exception_message_to_user($e) {
+  $output .= "<h3>Oops, something went wrong ...</h3>";
+  $output .= "Contact admin and provide the following code: " . $e->getCode() . ". <br />";
+  return $output;
+}
+
 // navigation functions
 function show_sidebar_left($subject_array, $page_array) {
   global $filename_main;
@@ -52,17 +59,15 @@ function show_sidebar_left($subject_array, $page_array) {
 function show_sidebar_left_back($subject_array, $page_array) {
   global $filename_main;
 
-  $output  =  "<ul class=\"subjects\">";
+  $output  = "<ul class=\"subjects\">";
   $output .= "<li>";
   $output .= "<a href={$filename_main}?subject=3>";
-  $output .= "<<< Back to main menu";
+  $output .= "<<< Main menu";
   $output .= "</a>";
   $output .= "</li>";
   $output .= "</ul>";
   return $output;
-
 }
-
 
 function make_sidebar_right($username) {
   $output  = "Currently logged in as: ";
@@ -78,8 +83,9 @@ function find_all_subjects() {
 
   // want to use prepared statements
   $query  = "SELECT * FROM Web_Subjects";
+  $params = array();
 
-  $subject_set = sql_request_query($query);
+  $subject_set = sql_request_query($query, $params);
   return $subject_set;
 
 }
@@ -89,10 +95,12 @@ function find_subject_by_subject_id($subject_id) {
 
 
   $query  = "SELECT TOP 1 * FROM Web_Subjects";
-  $query .= " WHERE SubjectID = '" . $subject_id . "'";
+  $query .= " WHERE SubjectID = ?";
+
+  $params = array($subject_id);
 
   // want to use prepared statements
-  $subject_set = sql_request_query($query);
+  $subject_set = sql_request_query($query, $params);
   if ($subject = sqlsrv_fetch_array($subject_set, SQLSRV_FETCH_ASSOC)) {
     return $subject;
   }
@@ -106,10 +114,11 @@ function find_page_by_page_id($page_id) {
   // returns array with the subject for the given subject id, else returns false
 
   $query  = "SELECT TOP 1 * FROM Web_Pages";
-  $query .= " WHERE PageID = '" . $page_id . "'";
+  $query .= " WHERE PageID = ?";
 
-  // want to use prepared statements
-  $page_set = sql_request_query($query);
+  $params = array($page_id);
+
+  $page_set = sql_request_query($query, $params);
   if ($page = sqlsrv_fetch_array($page_set, SQLSRV_FETCH_ASSOC)) {
     return $page;
   }
@@ -123,10 +132,11 @@ function find_pages_for_subject($subject_id) {
   // returns array with pages for the given subject
 
   $query  = "SELECT * FROM Web_Pages";
-  $query .= " WHERE SubjectID = '" . $subject_id. "'";
+  $query .= " WHERE SubjectID = ?";
 
-  // want to use prepared statements
-  $page_set = sql_request_query($query);
+  $params = array($subject_id);
+
+  $page_set = sql_request_query($query, $params);
   return $page_set;
 
 }
@@ -152,7 +162,7 @@ function find_current_page() {
 
 // display functions
 function show_page_title($page_title="Default") {
-  $output = "<h2>{$page_title}</h2>";
+  $output = "<h2 class=\"page_header\">{$page_title}</h2>";
   return $output;
 }
 
@@ -190,7 +200,9 @@ function find_all_users() {
   // want to use prepared statements
   $query  = "SELECT * FROM Web_Users";
 
-  $user_set = sql_request_query($query);
+  $params = array();
+
+  $user_set = sql_request_query($query, $params);
   return $user_set;
 }
 
@@ -292,22 +304,39 @@ function make_user_list_of_userrole($userrole) {
 }
 
   // user CRUD functions
-function create_user($post) {
+function create_user($post, $user_role_id = 2) {
   // must remember to check if username is unique
 
   $username = $post["username"];
   $password = $post["password"];
-  $user_role_id = (int) 2;
+  $date_time_created = generate_datetime_for_sql();
 
   $safe_username = sql_stringprep($username);
-
   $hashed_password = hash_password($password);
-  $query  = "INSERT INTO Web_Users (Username, HashedPassword, UserRoleID)";
-  $query .= " VALUES ('{$safe_username}', '{$hashed_password}', $user_role_id)";
-  //$query .= " VALUES ('" . $safe_username . "', '" . $hashed_password . "', '" . $user_role . "')";
 
-  // want to use prepared statements
-  $created_user = sql_request_query($query);
+  $query  = "INSERT INTO Web_Users (Username, HashedPassword, UserRoleID, DateTimeCreated)";
+  $query .= " VALUES (?, ?, ?, ?)";
+
+  $params = array($safe_username, $hashed_password, $user_role_id, $date_time_created);
+
+  try {
+    $created_user = sql_request_query($query, $params);
+  }
+  catch (exception $e) {
+    sql_log_errors($e, sqlsrv_errors());
+    $_SESSION["error"] .= make_exception_message_to_user($e);
+    /*
+    if ($e->getCode() === EXCEPTION_CODE_SQL) {
+      $_SESSION["message"] .= "Something went wrong trying to write to database. <br />";
+      $_SESSION["message"] .= "Contact admin and provide the following code: " . $e->getCode() . ". <br />";
+      //$e->getMessage();
+
+    }
+    else {
+      $_SESSION["message"] .= $e->getMessage();
+    }
+    */
+  }
   return $created_user;
 
 }
@@ -329,19 +358,22 @@ function edit_user($post) {
       $safe_username = sql_stringprep($post["new_username"]);
 
       $query  = "UPDATE Web_Users";
-      $query .= " SET Username = '{$safe_username}'";
+      $query .= " SET Username = ?";
+
+      $params = array($safe_username);
 
       if (!empty($post["new_password"])) {
         // need this safe_password?
         $safe_password = sql_stringprep($post["new_password"]);
         $hashed_password = hash_password($safe_password);
-        $query .= " , HashedPassword = '{$hashed_password}'";
+        $query .= " , HashedPassword = ?";
 
+        $params = array_push($hashed_password);
       }
-      $query .= " WHERE UserID = '{$safe_user_id}'";
+      $query .= " WHERE UserID = ?";
 
-      // want to use prepared statements
-      $edited_user = sql_request_query($query);
+      $params = array_push($safe_user_id);
+      $edited_user = sql_request_query($query, $params);
       return $edited_user;
     }
   }
@@ -369,10 +401,11 @@ function delete_user($get) {
       $safe_user_id = sql_stringprep($user_id);
 
       $query  = "DELETE FROM Web_Users";
-      $query .= " WHERE UserID = '{$safe_user_id}'";
+      $query .= " WHERE UserID = ?";
 
-      // want to use prepared statements
-      $deleted_user = sql_request_query($query);
+      $params = array($safe_user_id);
+
+      $deleted_user = sql_request_query($query, $params);
       return $deleted_user;
     }
   }
@@ -388,10 +421,11 @@ function find_user_by_user_id($user_id) {
   // returns array with the user for the given user id, else returns false
 
   $query  = "SELECT TOP 1 * FROM Web_Users";
-  $query .= " WHERE UserID = '" . $user_id . "'";
+  $query .= " WHERE UserID = ?";
 
-  // want to use prepared statements
-  $user_set = sql_request_query($query);
+  $params = array($user_id);
+
+  $user_set = sql_request_query($query, $params);
   if ($user = sqlsrv_fetch_array($user_set, SQLSRV_FETCH_ASSOC)) {
     return $user;
   }
@@ -405,10 +439,11 @@ function find_user_by_username($username)  {
   // returns user if successful, or FALSE if unsuccessful
 
   $query  = "SELECT TOP 1 * FROM Web_Users";
-  $query .= " WHERE Username = '" . $username . "'";
+  $query .= " WHERE Username = ?";
 
-  // want to use prepared statements
-  $user_set = sql_request_query($query);
+  $params = array($username);
+
+  $user_set = sql_request_query($query, $params);
 
   if ($user = sqlsrv_fetch_array($user_set, SQLSRV_FETCH_ASSOC)) {
     return $user;
@@ -433,9 +468,11 @@ function find_users_of_userrole($userrole) {
 
   // want to use prepared statements
   $query  = "SELECT * FROM Web_Users";
-  $query .= " WHERE UserRoleID = " . $userrole;
+  $query .= " WHERE UserRoleID = ?";
 
-  $user_set = sql_request_query($query);
+  $params = array($userrole);
+
+  $user_set = sql_request_query($query, $params);
   return $user_set;
 }
 
@@ -452,10 +489,11 @@ function find_userrole_id_by_user_id($user_id) {
 function find_userrole_by_userrole_id($userrole_id) {
   // returns array with the userrole for the given userrole id, else returns false
   $query  = "SELECT TOP 1 * FROM Web_UserRoles";
-  $query .= " WHERE UserRoleID = '" . $userrole_id . "'";
+  $query .= " WHERE UserRoleID = ?";
 
-  // want to use prepared statements
-  $userrole_set = sql_request_query($query);
+  $params = array($userrole_id);
+
+  $userrole_set = sql_request_query($query, $params);
   if ($userrole = sqlsrv_fetch_array($userrole_set, SQLSRV_FETCH_ASSOC)) {
     return $userrole;
   }
@@ -544,44 +582,6 @@ function generate_datetime_for_sql() {
   return $datetime;
 }
 
-function log_user_in_database($user) {
-  //rename to create_user_log($user) ?
-
-  $user_id = $user["UserID"];
-  $datetime_login = generate_datetime_for_sql();
-
-  $datetime_last_activity = generate_datetime_for_sql();
-  // date_default_timezone_set('Australia/Melbourne');
-
-  // $safe_datetime_login = sql_stringprep($datetime_login);
-
-  $query  = "INSERT INTO Web_Logins (UserID, DateTimeLogin, DateTimeLastActivity)";
-  $query .= " VALUES ('{$user_id}', '{$datetime_login}', '{$datetime_last_activity}')";
-  $query .= " ; SELECT SCOPE_IDENTITY() as id";
-
-  // want to use prepared statements
-  $logged_user = sql_request_query($query);
-  $_SESSION["login_id"] = sql_get_scope_identity($logged_user);
-  $_SESSION["last_activity"] = $datetime_last_activity;
-  return $logged_user;
-}
-
-function update_user_log_in_database($login_id) {
-
-  $datetime_last_activity = generate_datetime_for_sql();
-  // date_default_timezone_set('Australia/Melbourne');
-
-  // $safe_datetime_login = sql_stringprep($datetime_login);
-
-  $query  = "UPDATE Web_Logins";
-  $query .= " SET DateTimeLastActivity = '{$datetime_last_activity}'";
-  $query .= " WHERE Web_LoginID = '{$login_id}'";
-
-  // want to use prepared statements
-  $logged_user = sql_request_query($query);
-  return $logged_user;
-}
-
 function logged_in() {
   return isset($_SESSION["user_id"]);
 }
@@ -637,6 +637,66 @@ function hash_password($password) {
 function find_title_by_titlename() {
   return FALSE;
 }
+
+// log or database functions
+function log_user_in_database($user) {
+  //rename to create_user_log($user) ?
+
+  $user_id = $user["UserID"];
+  $datetime_login = generate_datetime_for_sql();
+
+  $datetime_last_activity = generate_datetime_for_sql();
+  // date_default_timezone_set('Australia/Melbourne');
+
+  // $safe_datetime_login = sql_stringprep($datetime_login);
+
+  $query  = "INSERT INTO Web_Logins (UserID, DateTimeLogin, DateTimeLastActivity)";
+  $query .= " VALUES (?, ?, ?)";
+  $query .= " ; SELECT SCOPE_IDENTITY() as id";
+
+  $params = array($user_id, $datetime_login, $datetime_last_activity);
+
+  $logged_user = sql_request_query($query, $params);
+  $_SESSION["login_id"] = sql_get_scope_identity($logged_user);
+  $_SESSION["last_activity"] = $datetime_last_activity;
+  return $logged_user;
+}
+
+function update_user_log_in_database($login_id) {
+
+  $datetime_last_activity = generate_datetime_for_sql();
+  // date_default_timezone_set('Australia/Melbourne');
+
+  // $safe_datetime_login = sql_stringprep($datetime_login);
+
+  $query  = "UPDATE Web_Logins";
+  $query .= " SET DateTimeLastActivity = ?";
+  $query .= " WHERE Web_LoginID = ?";
+
+  $params = array($datetime_last_activity, $login_id);
+
+  $logged_user = sql_request_query($query, $params);
+  return $logged_user;
+}
+
+function log_sql_errors_in_database($exception, $error_string = " ") {
+
+    $datetime_log = generate_datetime_for_sql();
+    $error_message = $error_string;
+    $exception_message = $exception->getMessage();
+    $exception_code = $exception->getCode();
+    $exception_trace = $exception->getTraceAsString();
+
+    $query  = "INSERT INTO Web_Errors (DateTimeLog, ErrorMessage, ExceptionMessage, ExceptionCode, ExceptionTrace)";
+    $query .= " VALUES (?, ?, ?, ?, ?)";
+    //$query .= " ; SELECT SCOPE_IDENTITY() as id";
+
+    $params = array($datetime_log, $error_message, $exception_message, $exception_code, $exception_trace);
+
+    $logged_error = sql_request_query_for_error_log($query, $params);
+    return $logged_error;
+}
+
 
 // about functions (OS and Browser)
 function about_get_browser($user_agent = null) {

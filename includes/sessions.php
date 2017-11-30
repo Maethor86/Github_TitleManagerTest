@@ -4,8 +4,19 @@ session_save_path("../../../Sessions");
 $session = session_start();
 //initialize_session();
 
+function session_error() {
+  if (!empty($_SESSION["error"])) {
+    $output  = "<div class=\"error\">";
+    $output .= $_SESSION["error"];
+    $output .= "</div>";
+
+    $_SESSION["error"] = "";
+    return $output;
+  }
+}
 
 function session_message() {
+  echo session_error();
   if (!empty($_SESSION["message"])) {
     $output  = "<div class=\"message\">";
     $output .= $_SESSION["message"];
@@ -88,7 +99,7 @@ all lowercase
   things stored in the sessions now
   $_SESSION["user_id"]
   $_SESSION["username"]
-  $_SESSION["error"]?
+  $_SESSION["error"]
   $_SESSION["message"]
   $_SESSION["last_activity"]
   $_SESSION["login_id"]

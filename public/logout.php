@@ -4,7 +4,7 @@ require_once($filename_config);
 require_once($filename_functions);
 require_once($filename_sessions);
 require_once($filename_sql_functions);
-// require_once($filename_db_connection); may require?
+require_once($filename_db_connection);
 ?>
 
 <?php
