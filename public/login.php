@@ -6,7 +6,7 @@ include($filename_login_include_top);
 
 <?php
 $page_title = "Log in";
-echo show_page_title($page_title);
+echo make_page_title($page_title);
 echo session_message();
 ?>
 
@@ -55,7 +55,7 @@ else {
 <?php echo form_errors($errors) ?>
 
 <?php
-echo show_login_form($username, $filename_login);
+echo make_login_form($username, $filename_login);
 ?>
 
 

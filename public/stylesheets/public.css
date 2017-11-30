@@ -47,7 +47,8 @@ p,h1,h2,h3 {
 }
 #header a {
   text-decoration: none;
-  color: #D4E6F4
+  color: #D4E6F4;
+  background-color: #1A446C;
 
 }
 #header a:hover {

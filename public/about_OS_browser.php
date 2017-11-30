@@ -9,7 +9,7 @@ confirm_session();
 
 <?php
 $page_title = "OS & Browser";
-echo show_page_title($page_title);
+echo make_page_title($page_title);
 echo session_message();
 ?>
 

@@ -10,7 +10,7 @@ confirm_session();
 
 <?php
 $page_title = "New User";
-echo show_page_title($page_title);
+echo make_page_title($page_title);
 echo session_message();
 ?>
 
@@ -37,24 +37,9 @@ if (isset($_POST["create_user"])) {
 }
 ?>
 
-<?php echo form_errors($errors) ?>
-<form action="new_user.php" method="post">
-  <ul class="form">
-    <li class="form">
-      <div>Username:</div><div><input type="text" name="username" value=<?php echo $username ?> ></div>
-    </li>
-    <li class="form">
-      <div>Password:</div><div><input type="password" name="password" value="" ></div>
-    </li>
-    <li class="form">
-      <div>Confirm password:</div><div><input type="password" name="confirm_password" value="" ></div>
-    </li>
-  </ul>
-	<input type="submit" name="create_user" value="Create User" /> <br /><br />
-</form>
-<a href="manage_users.php?page=3">Cancel</a>
 <?php
-
+echo form_errors($errors);
+echo make_new_user_form($username);
 ?>
 
 

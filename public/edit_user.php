@@ -10,12 +10,12 @@ confirm_session();
 
 <?php
 $page_title = "Edit User";
-echo show_page_title($page_title);
+echo make_page_title($page_title);
 ?>
 
 <?php
 $current_username = find_username_by_user_id($_GET["userID"]);
-$new_username = $current_username;
+$new_username = "";
 if (isset($_POST["edit_user"])) {
   $new_username = $_POST["new_username"];
   if (!empty($_POST["new_password"]) || !empty($_POST["confirm_new_password"])) {
@@ -52,29 +52,9 @@ echo form_errors($errors);
 echo session_message();
 //$old_username = find_username_by_id($_GET["userID"]);
 ?>
-<form action=<?php echo "edit_user.php?userID=" . $_GET["userID"] ?> method="post">
-  <ul class="form">
-    <li class="form">
-      <div>Current username:</div><div><i><?php echo $current_username ?></i></div>
-    </li>
-    <li class="form">
-      <div>New username:</div><div><input type="text" name="new_username" value=<?php echo $new_username ?> ></div>
-    </li>
-    <li class="form">
-      <div>Old password:</div><div><input type="password" name="old_password" value="" ></div>
-    </li>
-    <li class="form">
-      <div>New password:</div><div><input type="password" name="new_password" value="" ></div>
-    </li>
-    <li class="form">
-      <div>Confirm new password:</div><div><input type="password" name="confirm_new_password" value="" ></div>
-    </li>
-  </ul>
-	<input type="submit" name="edit_user" value="Edit User" /> <br /><br />
-</form>
-<a href="manage_users.php?page=3">Cancel</a>
-<?php
 
+<?php
+echo make_edit_user_form($_GET["userID"], $current_username, $new_username);
 ?>
 
 

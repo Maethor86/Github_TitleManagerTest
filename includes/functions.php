@@ -14,7 +14,7 @@ function make_exception_message_to_user($e) {
 }
 
 // navigation functions
-function show_sidebar_left($subject_array, $page_array) {
+function make_sidebar_left($subject_array, $page_array) {
   global $filename_main;
 
   $subject_set = find_all_subjects();
@@ -56,7 +56,7 @@ function show_sidebar_left($subject_array, $page_array) {
 
 }
 
-function show_sidebar_left_back($subject_array, $page_array) {
+function make_sidebar_left_back($subject_array, $page_array) {
   global $filename_main;
 
   $output  = "<ul class=\"subjects\">";
@@ -161,12 +161,12 @@ function find_current_page() {
 }
 
 // display functions
-function show_page_title($page_title="Default") {
+function make_page_title($page_title="Default") {
   $output = "<h2 class=\"page_header\">{$page_title}</h2>";
   return $output;
 }
 
-function show_login_form($username = "", $login_page = "login.php") {
+function make_login_form($username = "", $login_page = "login.php") {
 
   $output  = "<form action= $login_page method=\"post\">";
   $output .= "<ul class=\"form\">";
@@ -182,13 +182,79 @@ function show_login_form($username = "", $login_page = "login.php") {
   return $output;
 }
 
-function show_searchtitle_form($title = "", $searchtitle_page = "search_title.php") {
+function make_new_user_form($username) {
+
+  $output  = "<form action=\"new_user.php\" method=\"post\">";
+  $output .= "<ul class=\"form\">";
+  $output .= "<li class=\"form\">";
+  $output .= "<div>Username:</div><div><input type=\"text\" name=\"username\" value=$username></div>";
+  $output .= "</li>";
+  $output .= "<li class=\"form\">";
+  $output .= "<div>Password:</div><div><input type=\"password\" name=\"password\" value=\"\" ></div>";
+  $output .= "</li>";
+  $output .= "<li class=\"form\">";
+  $output .= "<div>Confirm password:</div><div><input type=\"password\" name=\"confirm_password\" value=\"\" ></div>";
+  $output .= "</li>";
+  $output .= "</ul>";
+  $output .= "<input type=\"submit\" name=\"create_user\" value=\"Create User\" /> <br /><br />";
+  $output .= "</form>";
+  $output .= "<a href=\"manage_users.php?page=3\">Cancel</a>";
+  return $output;
+
+}
+
+function make_searchtitle_form($title = "", $searchtitle_page = "search_title.php") {
   // magic constant, needs refactoring
   $searchtitle_page .= "?subject=3";
   $output  = "<form action= $searchtitle_page method=\"post\">";
   $output .= "Title: <input type=\"text\" name=\"title\" value= $title >";
   $output .= "<input type=\"submit\" name=\"search_title\" value=\"Search\" />";
   $output .= "</form>";
+
+  return $output;
+}
+
+function make_current_user_form($username, $user_level, $created_datetime) {
+
+  $output  = "<ul class=\"form\">";
+  $output .= "<li class=\"form\">";
+  $output .= "<div>Username:</div><div><i>$username</i></div>";
+  $output .= "</li>";
+  $output .= "<li class=\"form\">";
+  $output .= "<div>User level:</div><div><i>$user_level</i></div>";
+  $output .= "</li>";
+  $output .= "<li class=\"form\">";
+  $output .= "<div>User created:</div><div><i>$created_datetime</i></div>";
+  $output .= "</li>";
+  $output .= "</ul>";
+
+  return $output;
+
+}
+
+function make_edit_user_form($userid, $current_username, $new_username) {
+
+  $output  = "<form action= \"edit_user.php?userID=$userid method=\"post\">";
+  $output .= "<ul class=\"form\">";
+  $output .= "<li class=\"form\">";
+  $output .= "<div>Current username:</div><div><i>$current_username</i></div>";
+  $output .= "</li>";
+  $output .= "<li class=\"form\">";
+  $output .= "<div>New username:</div><div><input type=\"text\" name=\"new_username\" value=$new_username></div>";
+  $output .= "</li>";
+  $output .= "<li class=\"form\">";
+  $output .= "<div>Old password:</div><div><input type=\"password\" name=\"old_password\" value=\"\" ></div>";
+  $output .= "</li>";
+  $output .= "<li class=\"form\">";
+  $output .= "<div>New password:</div><div><input type=\"password\" name=\"new_password\" value=\"\" ></div>";
+  $output .= "</li>";
+  $output .= "<li class=\"form\">";
+  $output .= "<div>Confirm new password:</div><div><input type=\"password\" name=\"confirm_new_password\" value=\"\" ></div>";
+  $output .= "</li>";
+  $output .= "</ul>";
+  $output .= "<input type=\"submit\" name=\"edit_user\" value=\"Edit User\" /> <br /><br />";
+  $output .= "</form>";
+  $output .= "<a href=\"manage_users.php?page=3\">Cancel</a>";
 
   return $output;
 }
@@ -633,10 +699,114 @@ function hash_password($password) {
     return $hashed_password;
 }
 
-// title functions
-function find_title_by_titlename() {
+// title CRUD
+function find_title_by_titlename($titlename) {
   return FALSE;
 }
+
+
+function create_title($post) {
+  // must remember to check if username is unique
+
+  $username = $post["username"];
+  $password = $post["password"];
+  $date_time_created = generate_datetime_for_sql();
+
+  $safe_username = sql_stringprep($username);
+  $hashed_password = hash_password($password);
+
+  $query  = "INSERT INTO Web_Users (Username, HashedPassword, UserRoleID, DateTimeCreated)";
+  $query .= " VALUES (?, ?, ?, ?)";
+
+  $params = array($safe_username, $hashed_password, $user_role_id, $date_time_created);
+
+  try {
+    $created_user = sql_request_query($query, $params);
+  }
+  catch (exception $e) {
+    sql_log_errors($e, sqlsrv_errors());
+    $_SESSION["error"] .= make_exception_message_to_user($e);
+
+  }
+  return $created_user;
+
+}
+
+function edit_title($post) {
+  $user_id = $_GET["userID"];
+  $user = find_user_by_user_id($user_id);
+  if ($user) {
+    if ($user["UserRoleID"] == 1) {
+      $_SESSION["message"] .= "Can't edit admin.<br />";
+      return FALSE;
+    }
+    if ($user_id == $_SESSION["user_id"]) {
+      $_SESSION["message"] .= "(refactor) Can't edit the user that is logged in.<br />";
+      return FALSE;
+    }
+    else {
+      $safe_user_id = sql_stringprep($user_id);
+      $safe_username = sql_stringprep($post["new_username"]);
+
+      $query  = "UPDATE Web_Users";
+      $query .= " SET Username = ?";
+
+      $params = array($safe_username);
+
+      if (!empty($post["new_password"])) {
+        // need this safe_password?
+        $safe_password = sql_stringprep($post["new_password"]);
+        $hashed_password = hash_password($safe_password);
+        $query .= " , HashedPassword = ?";
+
+        $params = array_push($hashed_password);
+      }
+      $query .= " WHERE UserID = ?";
+
+      $params = array_push($safe_user_id);
+      $edited_user = sql_request_query($query, $params);
+      return $edited_user;
+    }
+  }
+  else {
+    // i dont think this can ever happen
+    $_SESSION["message"] .= "Couldn't find user.<br />";
+    return FALSE;
+  }
+}
+
+function delete_title($get) {
+
+  $user_id = $get["userID"];
+  $user = find_user_by_user_id($user_id);
+  if ($user) {
+    if ($user["UserRoleID"] == 1) {
+      $_SESSION["message"] .= "Can't delete admin.<br />";
+      return FALSE;
+    }
+    elseif ($user_id == $_SESSION["user_id"]) {
+      $_SESSION["message"] .= "Can't delete the user that is logged in.<br />";
+      return FALSE;
+    }
+    else {
+      $safe_user_id = sql_stringprep($user_id);
+
+      $query  = "DELETE FROM Web_Users";
+      $query .= " WHERE UserID = ?";
+
+      $params = array($safe_user_id);
+
+      $deleted_user = sql_request_query($query, $params);
+      return $deleted_user;
+    }
+  }
+  else {
+    // i dont think this can ever happen
+    $_SESSION["message"] .= "Couldn't find user.<br />";
+    return FALSE;
+  }
+}
+
 
 // log or database functions
 function log_user_in_database($user) {

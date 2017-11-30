@@ -9,7 +9,7 @@ confirm_session();
 
 <?php
 $page_title = "Search Title";
-echo show_page_title($page_title);
+echo make_page_title($page_title);
 // want to have seesion_message here like all the other files, but kinda cant right now
 ?>
 
@@ -53,7 +53,7 @@ if (isset($_POST["title"])) {
 else {
 	$title = "";
 }
-echo show_searchtitle_form($title, $filename_search_title);
+echo make_searchtitle_form($title, $filename_search_title);
 
 ?>
 <?php
