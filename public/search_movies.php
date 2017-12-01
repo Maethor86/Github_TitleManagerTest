@@ -8,16 +8,17 @@ confirm_session();
 ?>
 
 <?php
-$page_title = "Search Title";
+$page_title = "Search Movies";
 echo make_page_title($page_title);
 // want to have seesion_message here like all the other files, but kinda cant right now
 ?>
 
 <?php
+$movies_found = FALSE;
 // checks to see if form was submitted
 if (isset($_POST['search_title'])) {
 	// form was submitted
-	$titlename = trim($_POST["title"]);
+	$title = trim($_POST["title"]);
 
 	// validation
 	$fields_required = array("title");
@@ -27,14 +28,14 @@ if (isset($_POST['search_title'])) {
 		// no errors, can proceed
 
 		// look up title in DB
-		$title = find_title_by_titlename($titlename);
-		if ($title) {
-			// title found
-			$_SESSION["message"] .= "Title found!";
+		$movie_set = find_movie_set_by_title($title);
+		if ($movie_set) {
+			// movies found
+			$movies_found = TRUE;
 		}
 		else {
-			// title not found
-			$_SESSION["message"] .= "Title not found.";
+			// movies not found
+
 		}
 	}
 }
@@ -54,7 +55,11 @@ else {
 	$title = "";
 }
 echo make_searchtitle_form($title, $filename_search_title);
-
+if ($movies_found) {
+	echo "<br /><br /><br />";
+	echo "<div class=\"users\"><h3>Search Results</h3></div>";
+	echo make_movies_list($movie_set);
+}
 ?>
 <?php
 require_once($filename_standard_require_bottom);

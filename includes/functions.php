@@ -182,24 +182,25 @@ function make_login_form($username = "", $login_page = "login.php") {
   return $output;
 }
 
-function make_new_user_form($username) {
+  // display title functions
+function make_new_title_form($title) {
 
-  $output  = "<form action=\"new_user.php\" method=\"post\">";
-  $output .= "<ul class=\"form\">";
-  $output .= "<li class=\"form\">";
-  $output .= "<div>Username:</div><div><input type=\"text\" name=\"username\" value=$username></div>";
-  $output .= "</li>";
-  $output .= "<li class=\"form\">";
-  $output .= "<div>Password:</div><div><input type=\"password\" name=\"password\" value=\"\" ></div>";
-  $output .= "</li>";
-  $output .= "<li class=\"form\">";
-  $output .= "<div>Confirm password:</div><div><input type=\"password\" name=\"confirm_password\" value=\"\" ></div>";
-  $output .= "</li>";
-  $output .= "</ul>";
-  $output .= "<input type=\"submit\" name=\"create_user\" value=\"Create User\" /> <br /><br />";
-  $output .= "</form>";
-  $output .= "<a href=\"manage_users.php?page=3\">Cancel</a>";
-  return $output;
+    $output  = "<form action=\"new_movie.php\" method=\"post\">";
+    $output .= "<ul class=\"form\">";
+    $output .= "<li class=\"form\">";
+    $output .= "<div>Title:</div><div><input type=\"text\" name=\"title\" value=$title></div>";
+    $output .= "</li>";
+    $output .= "<li class=\"form\">";
+    $output .= "<div>Running time (minutes):</div><div><input type=\"text\" name=\"runtime\" value=\"\" ></div>";
+    $output .= "</li>";
+    $output .= "<li class=\"form\">";
+    $output .= "<div>IMDB rating:</div><div><input type=\"text\" name=\"imdbrating\" value=\"\" ></div>";
+    $output .= "</li>";
+    $output .= "</ul>";
+    $output .= "<input type=\"submit\" name=\"create_movie\" value=\"Create Movie\" /> <br /><br />";
+    $output .= "</form>";
+    $output .= "<a href=\"browse_all_movies.php?page=3\">Cancel</a>";
+    return $output;
 
 }
 
@@ -210,11 +211,72 @@ function make_searchtitle_form($title = "", $searchtitle_page = "search_title.ph
   $output .= "Title: <input type=\"text\" name=\"title\" value= $title >";
   $output .= "<input type=\"submit\" name=\"search_title\" value=\"Search\" />";
   $output .= "</form>";
+  $output .= "<br />";
+  $output .= "<a href=\"browse_all_movies.php\">Browse all movies</a>";
 
   return $output;
 }
 
-function make_current_user_form($username, $user_level, $created_datetime) {
+function make_edit_movie_form($movieid, $current_title, $new_title) {
+
+  $output  = "<form action= \"edit_movie.php?movieID=$movieid\" method=\"post\">";
+  $output .= "<ul class=\"form\">";
+  $output .= "<li class=\"form\">";
+  $output .= "<div>Current title:</div><div><i>$current_title</i></div>";
+  $output .= "</li>";
+  $output .= "<li class=\"form\">";
+  $output .= "<div>New title:</div><div><input type=\"text\" name=\"new_title\" value=$new_title></div>";
+  $output .= "</li>";
+  /*
+  $output .= "<li class=\"form\">";
+  $output .= "<div>Old password:</div><div><input type=\"password\" name=\"old_password\" value=\"\" ></div>";
+  $output .= "</li>";
+  $output .= "<li class=\"form\">";
+  $output .= "<div>New password:</div><div><input type=\"password\" name=\"new_password\" value=\"\" ></div>";
+  $output .= "</li>";
+  $output .= "<li class=\"form\">";
+  $output .= "<div>Confirm new password:</div><div><input type=\"password\" name=\"confirm_new_password\" value=\"\" ></div>";
+  $output .= "</li>";
+  */
+  $output .= "</ul>";
+  $output .= "<input type=\"submit\" name=\"edit_movie\" value=\"Edit Movie\" /> <br /><br />";
+  $output .= "</form>";
+  $output .= "<a href=\"browse_all_movies.php?subject=3\">Cancel</a>";
+
+  return $output;
+}
+
+
+  //
+
+  // display user functions
+function make_new_user_form($username) {
+
+    $output  = "<form action=\"new_user.php\" method=\"post\">";
+    $output .= "<ul class=\"form\">";
+    $output .= "<li class=\"form\">";
+    $output .= "<div>Username:</div><div><input type=\"text\" name=\"username\" value=$username></div>";
+    $output .= "</li>";
+    $output .= "<li class=\"form\">";
+    $output .= "<div>Password:</div><div><input type=\"password\" name=\"password\" value=\"\" ></div>";
+    $output .= "</li>";
+    $output .= "<li class=\"form\">";
+    $output .= "<div>Confirm password:</div><div><input type=\"password\" name=\"confirm_password\" value=\"\" ></div>";
+    $output .= "</li>";
+    $output .= "</ul>";
+    $output .= "<input type=\"submit\" name=\"create_user\" value=\"Create User\" /> <br /><br />";
+    $output .= "</form>";
+    $output .= "<a href=\"manage_users.php?page=3\">Cancel</a>";
+    return $output;
+
+  }
+
+function make_current_user_form($user) {
+
+  $username = $user["Username"];
+  $user_level = find_userrole_name_by_userrole_id($user["UserRoleID"]);
+  $created_datetime = convert_datetime2_to_datetimestamp($user["DateTimeCreated"]);
+
 
   $output  = "<ul class=\"form\">";
   $output .= "<li class=\"form\">";
@@ -234,7 +296,7 @@ function make_current_user_form($username, $user_level, $created_datetime) {
 
 function make_edit_user_form($userid, $current_username, $new_username) {
 
-  $output  = "<form action= \"edit_user.php?userID=$userid method=\"post\">";
+  $output  = "<form action=\"edit_user.php?userID=$userid\" method=\"post\">";
   $output .= "<ul class=\"form\">";
   $output .= "<li class=\"form\">";
   $output .= "<div>Current username:</div><div><i>$current_username</i></div>";
@@ -259,12 +321,14 @@ function make_edit_user_form($userid, $current_username, $new_username) {
   return $output;
 }
 
+  //
+
 // user functions
 function find_all_users() {
   // returns array with users if successful
 
-  // want to use prepared statements
   $query  = "SELECT * FROM Web_Users";
+  $query .= " ORDER BY Username ASC";
 
   $params = array();
 
@@ -434,11 +498,11 @@ function edit_user($post) {
         $hashed_password = hash_password($safe_password);
         $query .= " , HashedPassword = ?";
 
-        $params = array_push($hashed_password);
+        array_push($params, $hashed_password);
       }
       $query .= " WHERE UserID = ?";
 
-      $params = array_push($safe_user_id);
+      array_push($params, $safe_user_id);
       $edited_user = sql_request_query($query, $params);
       return $edited_user;
     }
@@ -535,6 +599,7 @@ function find_users_of_userrole($userrole) {
   // want to use prepared statements
   $query  = "SELECT * FROM Web_Users";
   $query .= " WHERE UserRoleID = ?";
+  $query .= " ORDER BY Username ASC";
 
   $params = array($userrole);
 
@@ -699,110 +764,238 @@ function hash_password($password) {
     return $hashed_password;
 }
 
-// title CRUD
-function find_title_by_titlename($titlename) {
-  return FALSE;
+// movie functions
+function find_all_movies() {
+  // returns array with movies if successful
+
+  $query  = "SELECT * FROM Movies";
+
+  $params = array();
+
+  $movie_set = sql_request_query($query, $params);
+  return $movie_set;
 }
 
+function make_browse_movies_list() {
 
-function create_title($post) {
-  // must remember to check if username is unique
-
-  $username = $post["username"];
-  $password = $post["password"];
-  $date_time_created = generate_datetime_for_sql();
-
-  $safe_username = sql_stringprep($username);
-  $hashed_password = hash_password($password);
-
-  $query  = "INSERT INTO Web_Users (Username, HashedPassword, UserRoleID, DateTimeCreated)";
-  $query .= " VALUES (?, ?, ?, ?)";
-
-  $params = array($safe_username, $hashed_password, $user_role_id, $date_time_created);
-
-  try {
-    $created_user = sql_request_query($query, $params);
-  }
-  catch (exception $e) {
-    sql_log_errors($e, sqlsrv_errors());
-    $_SESSION["error"] .= make_exception_message_to_user($e);
-
-  }
-  return $created_user;
+  $movie_set = find_all_movies();
+  $output = make_movies_list($movie_set);
+  return $output;
 
 }
 
-function edit_title($post) {
-  $user_id = $_GET["userID"];
-  $user = find_user_by_user_id($user_id);
-  if ($user) {
-    if ($user["UserRoleID"] == 1) {
-      $_SESSION["message"] .= "Can't edit admin.<br />";
-      return FALSE;
-    }
-    if ($user_id == $_SESSION["user_id"]) {
-      $_SESSION["message"] .= "(refactor) Can't edit the user that is logged in.<br />";
-      return FALSE;
-    }
-    else {
-      $safe_user_id = sql_stringprep($user_id);
-      $safe_username = sql_stringprep($post["new_username"]);
+function make_movies_list($movie_set) {
 
-      $query  = "UPDATE Web_Users";
-      $query .= " SET Username = ?";
+  $output  = "<ul class=\"users\">";
+  while ($movie = sqlsrv_fetch_array($movie_set, SQLSRV_FETCH_ASSOC)) {
+    $output .= "<li class=\"users\">";
+    $output .= "<div>";
+    $output .= "<a href=\"movie_info.php?movieID=";
+    $output .= $movie["MovieID"];
+    $output .= "\">";
+    $output .= $movie["Title"];
+    $output .= "</a></div></li>";
+  }
+  $output .= " </ul>";
+  return $output;
+}
 
-      $params = array($safe_username);
+function make_movie_info($movie) {
 
-      if (!empty($post["new_password"])) {
-        // need this safe_password?
-        $safe_password = sql_stringprep($post["new_password"]);
-        $hashed_password = hash_password($safe_password);
-        $query .= " , HashedPassword = ?";
+  $movie_id = $movie["MovieID"];
+  $title = $movie["Title"];
+  $created_datetimestamp = convert_datetime2_to_datetimestamp($movie["DateTimeCreated"]);
 
-        $params = array_push($hashed_password);
-      }
-      $query .= " WHERE UserID = ?";
+  $output  = "<ul class=\"form\">";
+  $output .= "<li class=\"form\">";
+  $output .= "<div>Title:</div><div><i>$title</i></div>";
+  $output .= "</li>";
+  $output .= "<li class=\"form\">";
+  $output .= "<div>Title created:</div><div><i>$created_datetimestamp</i></div>";
+  $output .= "</li>";
+  $output .= "<li class=\"form\">";
+  $output .= "<div>";
+  $output .= "<a href=\"edit_movie.php?movieID=";
+  $output .= $movie_id;
+  $output .= "\">";
+  $output .= "Edit";
+  $output .= "</a>";
+  $output .= "</div>";
+  $output .= "</li>";
+  $output .= "<li class=\"form\">";
+  $output .= "<div>";
+  $output .= "<a href=\"delete_movie.php?movieID=";
+  $output .= $movie_id;
+  $output .= "\">";
+  $output .= "Delete";
+  $output .= "</a>";
+  $output .= "</div>";
+  $output .= "</li>";
+  $output .= "</ul>";
 
-      $params = array_push($safe_user_id);
-      $edited_user = sql_request_query($query, $params);
-      return $edited_user;
-    }
+  return $output;
+
+}
+
+
+// movie CRUD
+function find_movie_by_title($title) {
+
+  // returns a movie if successful, or FALSE if unsuccessful
+
+  $query  = "SELECT TOP 1 * FROM Movies";
+  $query .= " WHERE MovieID = ?";
+
+  $params = array($movie_id);
+
+  $movie_set = sql_request_query($query, $params);
+  if ($movie = sqlsrv_fetch_array($movie_set, SQLSRV_FETCH_ASSOC)) {
+    return $movie;
   }
   else {
-    // i dont think this can ever happen
-    $_SESSION["message"] .= "Couldn't find user.<br />";
     return FALSE;
   }
 }
 
-function delete_title($get) {
+function find_movie_by_movie_id($movie_id) {
+  // returns array with the movie for the given movie id, else returns false
 
-  $user_id = $get["userID"];
-  $user = find_user_by_user_id($user_id);
-  if ($user) {
+  $query  = "SELECT TOP 1 * FROM Movies";
+  $query .= " WHERE MovieID = ?";
+
+  $params = array($movie_id);
+
+  $movie_set = sql_request_query($query, $params);
+  if ($movie = sqlsrv_fetch_array($movie_set, SQLSRV_FETCH_ASSOC)) {
+    return $movie;
+  }
+  else {
+    return FALSE;
+  }
+}
+
+function find_movie_set_by_title($title) {
+  // returns array with the movies that contains title
+
+  // want to use contains instead of like, but needs configuring
+  // like is much slower than contains
+  // $query .= "WHERE CONTAINS(Title, ?)";
+  $query  = "SELECT * FROM Movies";
+  $query .= " WHERE Title LIKE ?";
+  $query .= " ORDER BY Title ASC";
+
+  $title = "%" . $title . "%";
+  $params = array($title);
+
+  $movie_set = NULL;
+  try {
+    $movie_set = sql_request_query($query, $params);
+  }
+  catch (exception $e) {
+    sql_log_errors($e, sqlsrv_errors());
+    if ($e->getCode() == EXCEPTION_CODE_SQL_CONFIRM_QUERY) {
+      $_SESSION["message"] .= "Couldn't find any movie with title containing '" . $title . "'.<br />";
+    }
+    else {
+      $_SESSION["error"] .= make_exception_message_to_user($e);
+    }
+  }
+
+  return $movie_set;
+
+  }
+
+function find_movie_title_by_movie_id($movie_id) {
+  $movie = find_movie_by_movie_id($movie_id);
+  return $movie["Title"];
+}
+
+
+function create_movie($post) {
+  // must remember to check if title is unique
+
+  $title = $post["title"];
+
+  $date_time_created = generate_datetime_for_sql();
+
+  $safe_title = sql_stringprep($title);
+
+  $query  = "INSERT INTO Movies (DateTimeCreated, Title)";
+  $query .= " VALUES (?, ?)";
+
+  $params = array($date_time_created, $safe_title);
+
+  try {
+    $created_movie = sql_request_query($query, $params);
+  }
+  catch (exception $e) {
+    sql_log_errors($e, sqlsrv_errors());
+    if ($e->getCode() == EXCEPTION_CODE_SQL_CONFIRM_QUERY) {
+      $_SESSION["message"] .= "A movie with that title already exists.<br />";
+    }
+    else {
+      $_SESSION["error"] .= make_exception_message_to_user($e);
+    }
+  }
+  return $created_movie;
+
+}
+
+function edit_movie($post) {
+  $movie_id = $_GET["movieID"];
+  $movie = find_movie_title_by_movie_id($movie_id);
+  if ($movie) {
+    $safe_movie_id = sql_stringprep($movie_id);
+    $safe_title = sql_stringprep($post["new_title"]);
+
+    $query  = "UPDATE Movies";
+    $query .= " SET Title = ?";
+    $query .= " WHERE MovieID = ?";
+
+    $params = array($safe_title, $safe_movie_id);
+
+    $edited_movie = sql_request_query($query, $params);
+    return $edited_movie;
+  }
+  else {
+    // i dont think this can ever happen
+    $_SESSION["message"] .= "Couldn't find movie.<br />";
+    return FALSE;
+  }
+}
+
+function delete_movie($get) {
+
+  $movie_id = $get["movieID"];
+  $movie = find_movie_by_movie_id($movie_id);
+  if ($movie) {
+    /*
     if ($user["UserRoleID"] == 1) {
       $_SESSION["message"] .= "Can't delete admin.<br />";
       return FALSE;
     }
+    */
+    /*
     elseif ($user_id == $_SESSION["user_id"]) {
       $_SESSION["message"] .= "Can't delete the user that is logged in.<br />";
       return FALSE;
     }
-    else {
-      $safe_user_id = sql_stringprep($user_id);
+    */
 
-      $query  = "DELETE FROM Web_Users";
-      $query .= " WHERE UserID = ?";
+    $safe_movie_id = sql_stringprep($movie_id);
 
-      $params = array($safe_user_id);
+    $query  = "DELETE FROM Movies";
+    $query .= " WHERE MovieID = ?";
 
-      $deleted_user = sql_request_query($query, $params);
-      return $deleted_user;
-    }
+    $params = array($safe_movie_id);
+
+    $deleted_movie = sql_request_query($query, $params);
+    return $deleted_movie;
+
   }
   else {
     // i dont think this can ever happen
-    $_SESSION["message"] .= "Couldn't find user.<br />";
+    $_SESSION["message"] .= "Couldn't find movie.<br />";
     return FALSE;
   }
 }
@@ -867,6 +1060,21 @@ function log_sql_errors_in_database($exception, $error_string = " ") {
     return $logged_error;
 }
 
+// time functions
+function convert_datetime2_to_datetimestamp($datetime2) {
+  $datetimestamp = date_format($datetime2, 'Y-m-d, H:i:s');
+  return $datetimestamp;
+}
+
+function get_date_from_datetime2($datetime2) {
+  $datetimestamp = date_format($datetime2, 'Y-m-d');
+  return $datetimestamp;
+}
+
+function get_time_from_datetime2($datetime2) {
+  $datetimestamp = date_format($datetime2, 'H:i:s');
+  return $datetimestamp;
+}
 
 // about functions (OS and Browser)
 function about_get_browser($user_agent = null) {

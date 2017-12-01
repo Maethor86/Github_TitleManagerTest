@@ -22,7 +22,7 @@ $filename_logout = "logout.php";
 $filename_main = "main.php";
 $filename_manage_users = "manage_users.php";
 $filename_new_user = "new_user.php";
-$filename_search_title = "search_title.php";
+$filename_search_title = "search_movies.php";
 $filename_template = "template.php";
 
 $filename_standard_sidebar_right = "../includes/layouts/standard_sidebar_right.php";

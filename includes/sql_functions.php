@@ -44,7 +44,7 @@ function sql_request_query_for_error_log($query, $params) {
 
 function sql_confirm_query($result_set) {
   if (!$result_set) {
-    throw new Exception("Error confirming query. <br />", EXCEPTION_CODE_SQL_CONFIRM_QUERY);
+    throw new Exception("Error confirming query. ", EXCEPTION_CODE_SQL_CONFIRM_QUERY);
   }
 }
 
@@ -110,7 +110,7 @@ function sql_formatted_errors($errors) {
     $output .= "Message: ".$error['message'] . " ";
     $count++;
   }
-//  $output .= "";
+  // $output .= "";
   return $output;
 }
 

@@ -15,8 +15,8 @@ echo session_message();
 
 <?php
 if ($current_subject) {
-  if ($current_subject["MenuName"] == "Search Title") {
-    redirect_to("search_title.php?subject=3");
+  if ($current_subject["MenuName"] == "Search Movies") {
+    redirect_to("search_movies.php?subject=3");
   }
 }
 elseif ($current_page) {
