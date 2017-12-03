@@ -213,6 +213,8 @@ function make_searchtitle_form($title = "", $searchtitle_page = "search_title.ph
   $output .= "</form>";
   $output .= "<br />";
   $output .= "<a href=\"browse_all_movies.php\">Browse all movies</a>";
+  $output .= " ";
+  $output .= "<a href=\"new_movie.php\">Add new movie</a>";
 
   return $output;
 }
@@ -454,18 +456,12 @@ function create_user($post, $user_role_id = 2) {
   }
   catch (exception $e) {
     sql_log_errors($e, sqlsrv_errors());
-    $_SESSION["error"] .= make_exception_message_to_user($e);
-    /*
-    if ($e->getCode() === EXCEPTION_CODE_SQL) {
-      $_SESSION["message"] .= "Something went wrong trying to write to database. <br />";
-      $_SESSION["message"] .= "Contact admin and provide the following code: " . $e->getCode() . ". <br />";
-      //$e->getMessage();
-
+    if ($e->getCode() == EXCEPTION_CODE_SQL_CONFIRM_QUERY) {
+      $_SESSION["message"] .= "A user with that username already exists.<br />";
     }
     else {
-      $_SESSION["message"] .= $e->getMessage();
+      $_SESSION["error"] .= make_exception_message_to_user($e);
     }
-    */
   }
   return $created_user;
 
@@ -769,6 +765,7 @@ function find_all_movies() {
   // returns array with movies if successful
 
   $query  = "SELECT * FROM Movies";
+  $query .= " ORDER BY Title ASC";
 
   $params = array();
 
@@ -786,8 +783,11 @@ function make_browse_movies_list() {
 
 function make_movies_list($movie_set) {
 
+  $found_movies = FALSE;
+
   $output  = "<ul class=\"users\">";
   while ($movie = sqlsrv_fetch_array($movie_set, SQLSRV_FETCH_ASSOC)) {
+    $found_movies = TRUE;
     $output .= "<li class=\"users\">";
     $output .= "<div>";
     $output .= "<a href=\"movie_info.php?movieID=";
@@ -797,7 +797,17 @@ function make_movies_list($movie_set) {
     $output .= "</a></div></li>";
   }
   $output .= " </ul>";
-  return $output;
+
+  if ($found_movies) {
+    return $output;
+  }
+  else {
+    $output  = "<ul class=\"users\">";
+    $output .= "<li class=\"users\">";
+    $output .= "<i>No movies found.</i>";
+    $output .= "</li></ul>";
+    return $output;
+  }
 }
 
 function make_movie_info($movie) {

@@ -22,14 +22,14 @@ $output .= "<div><h3 class=\"users\">Username</h3></div>";
 $output .= "<div><h3 class=\"users\">Action</h3></div>";
 $output .= "</li>";
 $output .= "<li class=\"page_header\">";
-$output .= "<div><h4 class=\"users\">Admins</h4></div>";
+//$output .= "<div><h4 class=\"users\"> Admins</h4></div>";
 $output .= "</li>";
 $output .= make_manage_user_list_of_userrole(1);
 $output .= "<li class=\"users\">";
-$output .= "<div><h4 class=\"users\">Users</h4></div>";
+//$output .= "<div><h4 class=\"users\">Users</h4></div>";
 $output .= "</li>";
 $output .= make_manage_user_list_of_userrole(2);
-$output .= make_manage_user_list();
+//$output .= make_manage_user_list();
 $output .= "</ul>";
 // $output .= make_manage_user_list();
 
